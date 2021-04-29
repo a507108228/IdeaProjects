@@ -9,27 +9,59 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="Idea 整合 Github&#10;                        新增加一个 测试">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IdeaProjects_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat/UdpReceiveDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat/UpdSenderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkReceive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/莫名其妙的有错误" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson1/lesson1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson2/TcpClientDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson2/TcpServerDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson3/TcpClientDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson3/TcpServerDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson4/UdpClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson4/UdpServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/路线.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receive.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D06_JaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D06_JaDe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D07_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D07_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D08_ArrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D08_ArrDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D09_ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D09_ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D10_ArrUti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D10_ArrUti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D11_StrDm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D11_StrDm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D12_JiCn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D12_JiCn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D13_Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D13_Obj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D14_JaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D14_JaDe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D15_JaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D15_JaDe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/Day04_Gouzao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/Day04_Gouzao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/Day04_XHYY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/Day04_XHYY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/Day05_this.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/Day05_this.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day04_lei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day04_lei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo03a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo03a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo04a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo04a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/ICalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/JavaText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/JavaText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/Spring/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/spring/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/Spring/Test/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/spring/Test/TestOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/JavaDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/JavaDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextDataFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextDataFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextJieChen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextJieChen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextScaanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextScaanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextWrappedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextWrappedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/text1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/text1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,11 +99,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1112">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkStudent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/spring/Test/TestOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="1488" column="22" selection-start-line="1488" selection-start-column="22" selection-end-line="1488" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -102,13 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/Day04_Gouzhao.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/Day04_XHYY.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/Day04_Gouzao.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/Day05_this.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D06_JaDe.java" />
         <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D07_Array.java" />
         <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D08_ArrDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D09_ArrayUtil.java" />
@@ -153,6 +232,13 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat/UpdSenderDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat/UdpReceiveDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkReceive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/zhujie/TestDemo02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java" />
       </list>
     </option>
   </component>
@@ -199,6 +285,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -240,72 +342,6 @@
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="chat2" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -320,7 +356,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619449112089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619516969763" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -330,15 +366,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.lzw.net.lesson4" />
       <recent name="cn.lzw" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.lzw.Snake" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\myidea" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
@@ -350,11 +389,8 @@
       <recent name="cn.lzw.Animal" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\myidea" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.lzw.Snake" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,13 +405,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TalkTeacher">
+  <component name="RunManager" selected="Application.TestDemo3">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.DemoImooc.Demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.imook.Demo" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.DemoImooc.*" />
+          <option name="PATTERN" value="cn.lzw.imook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +419,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TalkStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.chat2.TalkStudent" />
+    <configuration name="TestDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.annotation.zhujie.TestDemo01" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.net.chat2.*" />
+          <option name="PATTERN" value="cn.lzw.annotation.zhujie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +432,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TalkTeacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.chat2.TalkTeacher" />
+    <configuration name="TestDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.reflection.TestDemo1" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.net.chat2.*" />
+          <option name="PATTERN" value="cn.lzw.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.reflection.TestDemo2" />
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.reflection.TestDemo3" />
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,38 +478,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdpClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.lesson4.UdpClientDemo" />
+    <configuration name="UrlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.Download.UrlDemo" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.net.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UdpReceiveDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.chat.UdpReceiveDemo" />
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.net.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdSenderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.chat.UpdSenderDemo" />
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.net.chat.*" />
+          <option name="PATTERN" value="cn.lzw.net.Download.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,11 +493,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TalkTeacher" />
-        <item itemvalue="Application.TalkStudent" />
-        <item itemvalue="Application.UdpReceiveDemo" />
-        <item itemvalue="Application.UpdSenderDemo" />
-        <item itemvalue="Application.UdpClientDemo" />
+        <item itemvalue="Application.TestDemo3" />
+        <item itemvalue="Application.TestDemo2" />
+        <item itemvalue="Application.TestDemo1" />
+        <item itemvalue="Application.TestDemo01" />
+        <item itemvalue="Application.UrlDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -545,6 +581,12 @@
       <workItem from="1619335719153" duration="17932000" />
       <workItem from="1619436253694" duration="6241000" />
       <workItem from="1619443861002" duration="4452000" />
+      <workItem from="1619450408047" duration="315000" />
+      <workItem from="1619450846457" duration="18000" />
+      <workItem from="1619485957429" duration="2033000" />
+      <workItem from="1619502899139" duration="1491000" />
+      <workItem from="1619504422516" duration="2072000" />
+      <workItem from="1619512045989" duration="4363000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -567,7 +609,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619257693703</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1619450474553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619450474553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1619487076323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619487076324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -588,7 +644,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210074000" />
+    <option name="totallyTimeSpent" value="220366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,10 +656,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.19584244" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,8 +668,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.29791895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39479393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.29682365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39430448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32858709" />
@@ -627,14 +683,16 @@
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3282989" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32782516" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.5308748" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Translation Assistant" order="11" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.11673774" />
@@ -723,64 +781,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Idea 整合 Github&#10;                        新增加一个 测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/Snake/statics/header.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/Snake/statics/body.png" />
-    <entry file="jar://D:/Program/Java/jdk1.8/jre/lib/rt.jar!/sun/awt/SunGraphicsCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="1974" selection-start-line="1974" selection-end-line="1974" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="3903" selection-start-line="3903" selection-end-line="3903" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/cn/lzw/Snake/GamePannel.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/cn/lzw/Snake/Data.class" />
-    <entry file="file://$PROJECT_DIR$/IdeaProjects.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/cn/lzw/Snake/StartGames.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/Spring/Test/TestOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/IdeaProjects_jar.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Lzw.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/Spring/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
@@ -947,23 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/net/DatagramPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkSend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="49" column="109" selection-start-line="49" selection-start-column="109" selection-end-line="49" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat/UdpReceiveDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -971,13 +954,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
         </state>
       </provider>
     </entry>
@@ -998,13 +974,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1032,10 +1001,164 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/莫名其妙的有错误">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/109951165479571915.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkStudent.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/net/DatagramPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="315" selection-start-line="315" selection-end-line="315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/annotation/Documented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1488" column="22" selection-start-line="1488" selection-start-column="22" selection-end-line="1488" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/spring/Test/TestOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1112">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>

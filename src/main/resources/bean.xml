@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean name="order" class="cn.lzw.Spring.Order">
+    <bean name="order" class="cn.lzw.spring.Order">
 
         <constructor-arg name="name" value="abc"></constructor-arg>
         <constructor-arg name="address" value="Ching"></constructor-arg>

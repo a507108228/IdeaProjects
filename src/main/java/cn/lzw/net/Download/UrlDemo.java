@@ -4,7 +4,6 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
 
 
 /**
@@ -16,13 +15,13 @@ import java.net.URLConnection;
  */
 public class UrlDemo{
     public static void main(String[] args) throws Exception{
-        URL url = new URL("https://p1.music.126.net/B61rfX98f8o71T7vujO1jg==/109951165479571915.jpg?param=50y50");
+        URL url = new URL("https://m10.music.126.net/20210427095451/d9fe516b3a381a028aba8f1fe684961b/ymusic/005c/0258/0609/76f2abc134527626539a1c4f93cdfdc1.mp3");
 
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 
         InputStream inputStream = urlConnection.getInputStream();
 
-        FileOutputStream foS = new FileOutputStream("109951165479571915.jpg");
+        FileOutputStream foS = new FileOutputStream("76f2abc134527626539a1c4f93cdfdc1.mp3");
 
         byte[] bytes = new byte[1024];
 
