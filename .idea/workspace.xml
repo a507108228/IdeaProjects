@@ -9,59 +9,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="Idea 整合 Github&#10;                        新增加一个 测试">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/receive.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D06_JaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D06_JaDe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D07_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D07_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D08_ArrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D08_ArrDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D09_ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D09_ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D10_ArrUti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D10_ArrUti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D11_StrDm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D11_StrDm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D12_JiCn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D12_JiCn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D13_Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D13_Obj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D14_JaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D14_JaDe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/D15_JaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/D15_JaDe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/Day04_Gouzao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/Day04_Gouzao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/Day04_XHYY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/Day04_XHYY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/Day05_this.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/Day05_this.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BiLiBiLi/day04_lei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/bilibili/day04_lei.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo03a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo03a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo04a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo04a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/ICalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/DemoImooc/JavaText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/imook/JavaText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/Spring/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/spring/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/Spring/Test/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/spring/Test/TestOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/JavaDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/JavaDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextDataFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextDataFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextJieChen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextJieChen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextScaanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextScaanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/TextWrappedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TextWrappedClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/TextSxt/text1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/text1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,64 +55,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1112">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="443">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/spring/Test/TestOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="1488" column="22" selection-start-line="1488" selection-start-column="22" selection-end-line="1488" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -188,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D07_Array.java" />
-        <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D08_ArrDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D09_ArrayUtil.java" />
         <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D10_ArrUti.java" />
         <option value="$PROJECT_DIR$/src/cn/lzw/BiLiBiLi/D12_JiCn.java" />
@@ -239,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java" />
       </list>
     </option>
   </component>
@@ -254,28 +170,29 @@
         <option name="localRepository" value="D:\Program\apache-maven-3.2.3\repository" />
         <option name="mavenHome" value="D:/Program/apache-maven-3.2.3" />
         <option name="userSettingsFile" value="D:\Program\apache-maven-3.2.3\conf\settings.xml" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="IdeaProjects" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -296,6 +213,17 @@
               <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
               <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
               <item name="cn.lzw" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,22 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +268,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619516969763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620526887854" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -366,20 +278,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.lzw.net.lesson4" />
       <recent name="cn.lzw" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\myidea" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.lzw.Snake" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Teaching\Idea\IdeaProjects\lib" />
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\java\cn\lzw\Snake" />
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\java\cn\lzw\Snake\statics" />
@@ -389,8 +299,11 @@
       <recent name="cn.lzw.Animal" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.lzw.Snake" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\myidea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,26 +318,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDemo3">
+  <component name="RunManager" selected="Application.TestJdbc">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lzw.imook.Demo" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.lzw.imook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.annotation.zhujie.TestDemo01" />
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.annotation.zhujie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,6 +371,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.jdbc.TestJdbc" />
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextScaanner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextScaanner" />
       <module name="IdeaProjects" />
@@ -478,12 +391,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.net.Download.UrlDemo" />
+    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.test.TimeTest" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.net.Download.*" />
+          <option name="PATTERN" value="cn.lzw.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,11 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJdbc" />
+        <item itemvalue="Application.TimeTest" />
         <item itemvalue="Application.TestDemo3" />
         <item itemvalue="Application.TestDemo2" />
         <item itemvalue="Application.TestDemo1" />
-        <item itemvalue="Application.TestDemo01" />
-        <item itemvalue="Application.UrlDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -587,6 +500,12 @@
       <workItem from="1619502899139" duration="1491000" />
       <workItem from="1619504422516" duration="2072000" />
       <workItem from="1619512045989" duration="4363000" />
+      <workItem from="1619697985622" duration="2185000" />
+      <workItem from="1619709362509" duration="1782000" />
+      <workItem from="1619741010928" duration="59000" />
+      <workItem from="1620374295098" duration="1299000" />
+      <workItem from="1620524371369" duration="2532000" />
+      <workItem from="1620527028223" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -623,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619487076324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1619698038037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619698038037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -644,7 +570,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220366000" />
+    <option name="totallyTimeSpent" value="229422000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,10 +582,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.19584244" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.09221748" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -668,27 +594,27 @@
       <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.29682365" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.29609543" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39430448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32858709" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275488" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3263965" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32212582" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32858709" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.22124863" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.324295" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32968238" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.324295" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.324295" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3286334" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32782516" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32782516" />
       <window_info anchor="right" id="Database" order="8" weight="0.5308748" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
       <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
@@ -781,40 +707,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Idea 整合 Github&#10;                        新增加一个 测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/javax/swing/ImageIcon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
-          <folding>
-            <element signature="e#6758#6759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/javax/swing/JLayeredPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="585" selection-start-line="585" selection-end-line="585" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/awt/GraphicsCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/javax/swing/RepaintManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1109,6 +1001,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1125,40 +1031,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="660">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="1535" column="7" selection-start-line="1535" selection-start-column="7" selection-end-line="1535" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1112">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="443">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1251,5 +1155,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
