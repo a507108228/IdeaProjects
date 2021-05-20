@@ -1,7 +1,5 @@
 package cn.lzw.test;
 
-
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,6 +8,8 @@ import java.util.Scanner;
 /**
  * @author lzw
  * @version 2021/4/29 20:09
+ *
+ * 有bug 我日期格式设置错了 现在改正了
  */
 public class TimeTest{
     public static void main(String[] args) throws ParseException{
@@ -17,19 +17,24 @@ public class TimeTest{
         System.out.print("请输入日期：");
         String str = sc.nextLine();
 
-        SimpleDateFormat s = new SimpleDateFormat("yyyy.MM.hh");
+        SimpleDateFormat s = new SimpleDateFormat("yyyy.MM.dd");
 
-        Date nowData = new Date();
+        Date date = new Date();
 
-        String now = s.format(nowData);
-        System.out.println("现在的日期是："+now);
+        String now = s.format(date);
+        System.out.println("现在是："+now);
 
-        Date oldData = s.parse(str);
-        String old = s.format(oldData);
+        Date oldDate = s.parse(str);
+        System.out.println("您输入的日期为："+oldDate);
+        String old = s.format(oldDate);
+        System.out.println("old日期："+old);
 
-        long t1 = nowData.getTime();
-        long t2 = oldData.getTime();
+        long t1 = date.getTime();
+        long t2 = oldDate.getTime();
         long t3 = t1 - t2;
+
+        System.out.println("相差的毫秒为"+t3);
+
 
         System.out.println(str+"\t距今已经过去"+"\t"+t3/1000/60/60/24+"\t"+"天了");
 
@@ -43,5 +48,9 @@ public class TimeTest{
         System.out.println("\n");
         System.out.println("\\");*/
 
+
+
     }
+
+
 }
