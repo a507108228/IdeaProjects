@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
 
 /**
  * @author lzw
@@ -26,6 +27,12 @@ public class LocalDateTimeTest{
         System.out.println(localDateTime.minusYears(1));
         String format = localDateTime.format(isoWeekDate);
         System.out.println(format);
+
+        TemporalAccessor parse = isoWeekDate.parse(format);
+        System.out.println(parse);
+
+        LocalDateTime of = LocalDateTime.of(2019, 12, 18, 19, 47);
+        System.out.println(of);
 
 
     }

@@ -9,14 +9,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/DataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" afterDir="false" />
+    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="Idea 整合 Github&#10;                        新增加一个 测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,47 +49,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="297">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21219">
-              <caret line="699" column="28" selection-start-line="699" selection-start-column="28" selection-end-line="699" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -121,6 +83,9 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -209,7 +174,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -381,7 +346,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621510303839" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621513926731" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -391,7 +356,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -604,8 +569,8 @@
       <item itemvalue="JUnit.DataTest.test02" />
       <item itemvalue="JUnit.DataTest.test04" />
       <item itemvalue="JUnit.CalendarTest.test01" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
       <item itemvalue="JUnit.LocalDateTimeTest.test" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
     </list>
     <recent_temporary>
       <list>
@@ -726,7 +691,8 @@
       <workItem from="1621430252123" duration="269000" />
       <workItem from="1621469847865" duration="6474000" />
       <workItem from="1621491907732" duration="6496000" />
-      <workItem from="1621507379553" duration="2679000" />
+      <workItem from="1621507379553" duration="4605000" />
+      <workItem from="1621513826846" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -805,16 +771,24 @@
       <option name="project" value="LOCAL" />
       <updated>1621430300449</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1621510293098</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621510293098</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1621510327529</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621510327529</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalendarTest_test01 - 2021.05.20 at 15h 58m 03s.xml">
-      <configuration name="CalendarTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalendarTest_test01 - 2021.05.20 at 15h 59m 12s.xml">
-      <configuration name="CalendarTest.test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalendarTest_test01 - 2021.05.20 at 16h 02m 22s.xml">
       <configuration name="CalendarTest.test01" configurationId="JUnit" />
     </history-entry>
@@ -839,9 +813,15 @@
     <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 20m 40s.xml">
       <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 44m 24s.xml">
+      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 47m 27s.xml">
+      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311447000" />
+    <option name="totallyTimeSpent" value="313472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -853,10 +833,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726176" weight="0.24617068" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.12100213" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -869,12 +849,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39262474" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275488" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32212582" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32201535" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275488" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.324295" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3286334" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
@@ -1364,23 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21219">
-          <caret line="699" column="28" selection-start-line="699" selection-start-column="28" selection-end-line="699" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1391,10 +1354,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="699" column="28" selection-start-line="699" selection-start-column="28" selection-end-line="699" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="297">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
