@@ -1,8 +1,8 @@
 package cn.lzw.string;
 
-import com.mysql.jdbc.DatabaseMetaData;
+
 import org.junit.Test;
-import java.util.Date;
+
 
 
 /**

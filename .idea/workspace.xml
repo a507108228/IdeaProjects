@@ -9,9 +9,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="Idea 整合 Github&#10;                        新增加一个 测试">
+    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/OthersClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/se1.png" beforeDir="false" afterPath="$PROJECT_DIR$/se1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,14 +62,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="254">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-291">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1274">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1891">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -71,6 +170,7 @@
         <option value="spring-beans.schema" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="XML Properties File" />
       </list>
     </option>
   </component>
@@ -87,18 +187,12 @@
       <GitPushTagMode />
     </option>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3746f593-5172-4fbb-b04e-e6551b85bc15" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson1/lesson1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson4/UdpClientDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/lzw/net/lesson4/UdpServerDemoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson4/UdpServerDemo4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/lesson4/UdpServerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkSend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat/UpdSenderDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/chat2/TalkReceive.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/zhujie/TestDemo02.java" />
@@ -108,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo3.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/ab.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java" />
@@ -128,19 +221,29 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/thread/Thread.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/thread/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringMethod.java" />
         <option value="$PROJECT_DIR$/lol.txt" />
         <option value="$PROJECT_DIR$/ace.txt" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/DataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/Calendar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/OthersClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java" />
       </list>
     </option>
   </component>
@@ -174,10 +277,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -227,7 +331,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +340,45 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSystemIn.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDemo1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -346,29 +488,25 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621513926731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621678198490" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="M:/ChromeDownload/软件/专业需要/test22" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.lzw.net.lesson4" />
       <recent name="cn.lzw" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Teaching\Idea\IdeaProjects" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\myidea" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.lzw.Snake" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\java\cn\lzw\io\serialization" />
@@ -382,8 +520,12 @@
       <recent name="cn.lzw.Animal" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.lzw.Snake" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
+      <recent name="D:\Teaching\Idea\IdeaProjects" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
+      <recent name="D:\Teaching\Idea\IdeaProjects\myidea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,13 +540,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocalDateTimeTest.test">
+  <component name="RunManager" selected="JUnit.IoTest.streamTest">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lzw.imook.Demo" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.lzw.imook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.PropertiesTest" />
+      <module name="IdeaProjects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/resources" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,81 +575,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IoTest.streamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.string.*" />
+          <option name="PATTERN" value="cn.lzw.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.string" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.string.CalendarTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="cn.lzw.io" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.IoTest" />
+      <option name="METHOD_NAME" value="streamTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.string.*" />
+          <option name="PATTERN" value="cn.lzw.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.string" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.string.DataTest" />
+      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.MapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.MapTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.string.*" />
+          <option name="PATTERN" value="cn.lzw.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.string" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.string.DataTest" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.string" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.string.DataTest" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalDateTimeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.string" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.string.LocalDateTimeTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.MapTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -565,20 +704,20 @@
     <list>
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.TextScaanner" />
-      <item itemvalue="JUnit.DataTest.test" />
-      <item itemvalue="JUnit.DataTest.test02" />
-      <item itemvalue="JUnit.DataTest.test04" />
-      <item itemvalue="JUnit.CalendarTest.test01" />
-      <item itemvalue="JUnit.LocalDateTimeTest.test" />
+      <item itemvalue="Application.PropertiesTest" />
+      <item itemvalue="JUnit.MapTest.test" />
+      <item itemvalue="JUnit.MapTest" />
+      <item itemvalue="JUnit.MapTest.test2" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
+      <item itemvalue="JUnit.IoTest.streamTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LocalDateTimeTest.test" />
-        <item itemvalue="JUnit.CalendarTest.test01" />
-        <item itemvalue="JUnit.DataTest.test" />
-        <item itemvalue="JUnit.DataTest.test04" />
-        <item itemvalue="JUnit.DataTest.test02" />
+        <item itemvalue="JUnit.IoTest.streamTest" />
+        <item itemvalue="Application.PropertiesTest" />
+        <item itemvalue="JUnit.MapTest.test2" />
+        <item itemvalue="JUnit.MapTest" />
+        <item itemvalue="JUnit.MapTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -692,7 +831,17 @@
       <workItem from="1621469847865" duration="6474000" />
       <workItem from="1621491907732" duration="6496000" />
       <workItem from="1621507379553" duration="4605000" />
-      <workItem from="1621513826846" duration="99000" />
+      <workItem from="1621513826846" duration="539000" />
+      <workItem from="1621515325603" duration="1384000" />
+      <workItem from="1621558448617" duration="9585000" />
+      <workItem from="1621577691174" duration="7950000" />
+      <workItem from="1621590337004" duration="996000" />
+      <workItem from="1621595516257" duration="4850000" />
+      <workItem from="1621641845522" duration="102000" />
+      <workItem from="1621644037571" duration="6438000" />
+      <workItem from="1621651849364" duration="1593000" />
+      <workItem from="1621665712262" duration="6356000" />
+      <workItem from="1621675611766" duration="2438000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -785,43 +934,50 @@
       <option name="project" value="LOCAL" />
       <updated>1621510327529</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1621513938104</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621513938104</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalendarTest_test01 - 2021.05.20 at 16h 02m 22s.xml">
-      <configuration name="CalendarTest.test01" configurationId="JUnit" />
+    <history-entry file="MapTest_test - 2021.05.22 at 16h 01m 37s.xml">
+      <configuration name="MapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 18h 49m 59s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="MapTest - 2021.05.22 at 16h 08m 32s.xml">
+      <configuration name="MapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 01m 10s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="MapTest - 2021.05.22 at 16h 08m 52s.xml">
+      <configuration name="MapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 01m 29s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="MapTest - 2021.05.22 at 16h 10m 39s.xml">
+      <configuration name="MapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 02m 57s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="MapTest_test2 - 2021.05.22 at 16h 53m 59s.xml">
+      <configuration name="MapTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 03m 38s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="MapTest_test2 - 2021.05.22 at 16h 55m 25s.xml">
+      <configuration name="MapTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 11m 46s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 00m 00s.xml">
+      <configuration name="IoTest.streamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 20m 40s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 00m 24s.xml">
+      <configuration name="IoTest.streamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 44m 24s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 00m 41s.xml">
+      <configuration name="IoTest.streamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocalDateTimeTest_test - 2021.05.20 at 19h 47m 27s.xml">
-      <configuration name="LocalDateTimeTest.test" configurationId="JUnit" />
+    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 01m 39s.xml">
+      <configuration name="IoTest.streamTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313472000" />
+    <option name="totallyTimeSpent" value="355604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +992,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.12100213" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.14498934" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -845,8 +1001,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.2935378" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39262474" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.2895323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39257592" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
@@ -854,11 +1010,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32201535" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275488" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.324295" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.3239595" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3286334" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
-      <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3295838" />
+      <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.49946696" weight="0.3295838" />
       <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -867,43 +1023,49 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.32782516" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32713348" />
       <window_info anchor="right" id="Database" order="8" weight="0.5308748" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
       <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Translation Assistant" order="11" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11673774" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.13238512" />
+      <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39087948" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.29024944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39257592" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32201535" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32871974" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.33296704" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275488" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.3239595" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3286334" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3295838" />
+      <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.49946696" weight="0.3295838" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32713348" />
+      <window_info anchor="right" id="Database" order="8" weight="0.5308748" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Translation Assistant" order="11" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,293 +1122,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Idea 整合 Github&#10;                        新增加一个 测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/object.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/4_代码/第2部分：Java高级编程/JavaSenior/day10/src/com/atguigu/java/ObjectInputOutputStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/internal/requests/FilterRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/serialization/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1931#1932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordcount.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="9" column="164" selection-start-line="9" selection-start-column="164" selection-end-line="9" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/thread.java" />
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="1693" column="45" selection-start-line="1693" selection-start-column="45" selection-end-line="1693" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/thread/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/thread/ThreadCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/thread/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/thread/ThreadRunable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2666">
-          <caret line="613" column="22" selection-start-line="613" selection-start-column="22" selection-end-line="613" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lol.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/1_课件/第2部分：Java高级编程/尚硅谷_宋红康_第13章_IO流/File课后练习answer/ListFilesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1089" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-          <folding>
-            <element signature="e#36393#36394#0" expanded="true" />
-            <element signature="e#36459#36460#0" expanded="true" />
-            <element signature="e#47538#47539#0" expanded="true" />
-            <element signature="e#47602#47603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/1_课件/第2部分：Java高级编程/尚硅谷_宋红康_第9章_Java常用类/StringExer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6864">
-          <caret line="212" column="43" lean-forward="true" selection-start-line="212" selection-start-column="43" selection-end-line="212" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2805">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="261" column="15" selection-start-line="261" selection-start-column="15" selection-end-line="261" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
-          <folding>
-            <element signature="e#6615#6616#0" expanded="true" />
-            <element signature="e#6662#6663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/spring/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1306,16 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1327,40 +1192,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/DataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,15 +1206,357 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="939">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1423">
+          <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/DataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/4_代码/第2部分：Java高级编程/JavaSenior/day06/src/com/atguigu/src7/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/1_课件/第2部分：Java高级编程/尚硅谷_宋红康_第11章_Java集合/ScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/4_代码/第2部分：Java高级编程/JavaSenior/day06/src/com/atguigu/java/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+          <folding>
+            <element signature="e#5343#5344#0" expanded="true" />
+            <element signature="e#5400#5401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/runner/notification/RunNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2093#2094#0" expanded="true" />
+            <element signature="e#2228#2241#0" expanded="true" />
+            <element signature="e#2303#2312#0" expanded="true" />
+            <element signature="e#5715#5716#0" expanded="true" />
+            <element signature="e#5775#5776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/internal/runners/model/EachTestNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/runner/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/runner/notification/Failure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/4_代码/第2部分：Java高级编程/JavaSenior/day06/src/com/atguigu/java/IteratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="315" column="34" lean-forward="true" selection-start-line="307" selection-end-line="315" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#1791#1985#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/OthersClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1274">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1891">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

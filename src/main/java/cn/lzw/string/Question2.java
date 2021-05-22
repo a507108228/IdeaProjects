@@ -1,6 +1,5 @@
 package cn.lzw.string;
 
-import jdk.nashorn.internal.ir.IfNode;
 import org.junit.Test;
 
 import java.util.Scanner;
