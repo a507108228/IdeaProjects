@@ -10,21 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/OthersClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se1.png" beforeDir="false" afterPath="$PROJECT_DIR$/se1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringBufferBuider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,10 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="353">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,24 +64,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="353">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="1977">
+              <caret line="139" column="45" lean-forward="true" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2547#2548#0" expanded="true" />
+                <element signature="e#2571#2572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,10 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1274">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="278">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,28 +126,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/SetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="122">
+              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1891">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+            <state relative-caret-position="1815">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,19 +154,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="2442">
+              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="-4149">
+              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,8 +186,8 @@
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="XML Properties File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -193,9 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/net/Download/UrlDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/zhujie/TestDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/reflection/TestDemo2.java" />
@@ -244,6 +258,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question02.java" />
       </list>
     </option>
   </component>
@@ -277,11 +294,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -291,114 +307,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSystemIn.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="TestDemo1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -467,12 +381,122 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="Questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="SetTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeQustion.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lzw" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="Question2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,7 +512,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621678198490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621695321914" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -540,7 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IoTest.streamTest">
+  <component name="RunManager" selected="JUnit.Question02.test">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lzw.imook.Demo" />
       <module name="IdeaProjects" />
@@ -554,13 +578,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.PropertiesTest" />
+    <configuration name="Question01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.Questions.Question01" />
       <module name="IdeaProjects" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/resources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.collection.*" />
+          <option name="PATTERN" value="cn.lzw.collection.Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -571,6 +594,22 @@
     <configuration name="TextScaanner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextScaanner" />
       <module name="IdeaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.CollectionsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -591,48 +630,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.collection.*" />
+          <option name="PATTERN" value="cn.lzw.collection.Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.MapTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.MapTest" />
+      <option name="PACKAGE_NAME" value="cn.lzw.collection.Questions" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.Questions.Question01" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question02.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.collection.*" />
+          <option name="PATTERN" value="cn.lzw.collection.Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.collection" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.MapTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="cn.lzw.collection.Questions" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.collection.Questions.Question02" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -704,20 +728,20 @@
     <list>
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.TextScaanner" />
-      <item itemvalue="Application.PropertiesTest" />
-      <item itemvalue="JUnit.MapTest.test" />
-      <item itemvalue="JUnit.MapTest" />
-      <item itemvalue="JUnit.MapTest.test2" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
+      <item itemvalue="Application.Question01" />
       <item itemvalue="JUnit.IoTest.streamTest" />
+      <item itemvalue="JUnit.CollectionsTest.test" />
+      <item itemvalue="JUnit.Question01.test" />
+      <item itemvalue="JUnit.Question02.test" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Question02.test" />
+        <item itemvalue="Application.Question01" />
+        <item itemvalue="JUnit.Question01.test" />
+        <item itemvalue="JUnit.CollectionsTest.test" />
         <item itemvalue="JUnit.IoTest.streamTest" />
-        <item itemvalue="Application.PropertiesTest" />
-        <item itemvalue="JUnit.MapTest.test2" />
-        <item itemvalue="JUnit.MapTest" />
-        <item itemvalue="JUnit.MapTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -841,7 +865,8 @@
       <workItem from="1621644037571" duration="6438000" />
       <workItem from="1621651849364" duration="1593000" />
       <workItem from="1621665712262" duration="6356000" />
-      <workItem from="1621675611766" duration="2438000" />
+      <workItem from="1621675611766" duration="9202000" />
+      <workItem from="1621688465251" duration="6805000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -941,43 +966,50 @@
       <option name="project" value="LOCAL" />
       <updated>1621513938104</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1621678280247</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621678280247</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MapTest_test - 2021.05.22 at 16h 01m 37s.xml">
-      <configuration name="MapTest.test" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 41m 51s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2021.05.22 at 16h 08m 32s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 43m 09s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2021.05.22 at 16h 08m 52s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 43m 17s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2021.05.22 at 16h 10m 39s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 43m 23s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest_test2 - 2021.05.22 at 16h 53m 59s.xml">
-      <configuration name="MapTest.test2" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 44m 26s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest_test2 - 2021.05.22 at 16h 55m 25s.xml">
-      <configuration name="MapTest.test2" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 46m 07s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 00m 00s.xml">
-      <configuration name="IoTest.streamTest" configurationId="JUnit" />
+    <history-entry file="CollectionsTest_test - 2021.05.22 at 18h 48m 08s.xml">
+      <configuration name="CollectionsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 00m 24s.xml">
-      <configuration name="IoTest.streamTest" configurationId="JUnit" />
+    <history-entry file="Question02_test - 2021.05.22 at 22h 33m 21s.xml">
+      <configuration name="Question02.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 00m 41s.xml">
-      <configuration name="IoTest.streamTest" configurationId="JUnit" />
+    <history-entry file="Question02_test - 2021.05.22 at 22h 33m 59s.xml">
+      <configuration name="Question02.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IoTest_streamTest - 2021.05.22 at 18h 01m 39s.xml">
-      <configuration name="IoTest.streamTest" configurationId="JUnit" />
+    <history-entry file="Question02_test - 2021.05.22 at 22h 54m 58s.xml">
+      <configuration name="Question02.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355604000" />
+    <option name="totallyTimeSpent" value="369173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -992,7 +1024,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.14498934" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1001,7 +1033,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.2895323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.29175946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39257592" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1011,7 +1043,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275488" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32850778" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.3239595" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.32293987" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3286334" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3295838" />
       <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.49946696" weight="0.3295838" />
@@ -1122,38 +1154,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Idea 整合 Github&#10;                        新增加一个 测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/text/DateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="365" selection-start-line="365" selection-end-line="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program/Java/jdk1.8/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3059">
-          <caret line="577" column="11" selection-start-line="577" selection-start-column="11" selection-end-line="577" selection-end-column="11" />
-          <folding>
-            <element signature="e#23443#23444#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TextDataFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TextData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/imook/JavaText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1203,16 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="699" column="28" selection-start-line="699" selection-start-column="28" selection-end-line="699" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,13 +1283,6 @@
           <folding>
             <element signature="e#0#43474#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/1_课件/第2部分：Java高级编程/尚硅谷_宋红康_第11章_Java集合/ScoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
@@ -1406,20 +1389,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="198">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java">
+    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/4_代码/第2部分：Java高级编程/JavaSenior/day06/src/com/atguigu/exer/ListExer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+        <state relative-caret-position="-1009">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷宋红康Java核心基础_好评如潮（30天入门）/新建文件夹/1_课件/第2部分：Java高级编程/尚硅谷_宋红康_第11章_Java集合/ScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4149">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1440,123 +1559,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <state relative-caret-position="353">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        <state relative-caret-position="1977">
+          <caret line="139" column="45" lean-forward="true" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2571#2572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="353">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/PicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1274">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1891">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
