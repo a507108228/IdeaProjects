@@ -21,38 +21,44 @@ public class ListTest{
         list.add("jiujiu");
         list.add("guiyi");
         list.add("i miss u");
+        System.out.println("list长度："+list.size());
         System.out.println(list);
         list.add(1, 998);
+        System.out.println("看一看998添加的位置："+list);
         System.out.println(list.get(2));
+
+
 
         List< Integer > list1 = Arrays.asList(1, 2, 3);
         list.addAll(2, list1);
+        System.out.println("复制过后的list："+list);
 
         //    移除指定位置的元素 并返回这个元素
-        System.out.println(list.remove(2));
+        System.out.println("移除指定索引的元素并返回该元素："+list.remove(2));
         //    指定位置的元素
         list.set(3, 1);
+        System.out.println("设置指定位置为什么元素："+list);
         //    指定位置添加元素 后面的元素往后顺移一位
         list.add(2, 3);
         //    复制指定区间的元素 返回一个新的集合
         List list2 = list.subList(0, 6);
-        System.out.println(list2);
-        System.out.println(list);
+        System.out.println("复制过后的集合："+list2);
+        System.out.println("最终操作的集合："+list);
 
         System.out.println("#############");
         //    迭代器遍历集合
-        Iterator iterator = list.iterator();
-        System.out.println("迭代器遍历集合：");
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
-        System.out.println("#############");
-        //    增强for循环
-        System.out.println("增强for循环遍历集合：");
-        for( Object o : list
-        ){
-            System.out.println(o);
-        }
+        // Iterator iterator = list.iterator();
+        // System.out.println("迭代器遍历集合：");
+        // while (iterator.hasNext()) {
+        //     System.out.println(iterator.next());
+        // }
+        // System.out.println("#############");
+        // //    增强for循环
+        // System.out.println("增强for循环遍历集合：");
+        // for( Object o : list
+        // ){
+        //     System.out.println(o);
+        // }
     }
 
     @Test

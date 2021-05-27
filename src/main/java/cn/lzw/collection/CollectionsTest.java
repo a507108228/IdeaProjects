@@ -10,6 +10,15 @@ import java.util.List;
 /**
  * @author lzw
  * @version 2021/5/22 18:15
+ * <p>
+ *     Collections工具类
+ * </p>
+ *
+ *         //    需要告诉on的长度 不然复制不了
+ *         List on = Arrays.asList(new Object[in.size()]);
+ *         Collections.copy(on, in );
+ *         System.out.println(on);
+ *
  */
 public class CollectionsTest{
 
@@ -45,6 +54,7 @@ public class CollectionsTest{
 
         //    把in中的元素复制到on中
         //    List on = new ArrayList();
+        //    需要告诉on的长度 不然复制不了
         List on = Arrays.asList(new Object[in.size()]);
         Collections.copy(on, in );
         System.out.println(on);

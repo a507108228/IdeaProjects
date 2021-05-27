@@ -33,6 +33,7 @@ public class MapTest{
 
         System.out.println("entrySet:" + map.entrySet());
         System.out.println("k集合" + map.keySet());
+        System.out.println("v集合"+map.values());
         System.out.println("map:" + map);
 
         System.out.println("-------------");
@@ -78,7 +79,13 @@ public class MapTest{
         System.out.println("-------------");
     }
 
-
+/**
+ * @author: a5071
+ * @time: 2021/5/23 10:39
+ *<p>
+ *     按照姓名顺序 次年龄顺序 给user对象进行排序
+ *     使用comparator接口
+ */
     @Test
     public void test2(){
         TreeMap treeMap = new TreeMap(new Comparator(){

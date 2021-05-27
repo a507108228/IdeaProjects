@@ -9,9 +9,9 @@ import java.util.*;
  * @version 2021/5/21 10:46
  * <p>
  * 1.   数组初始化以后 长度不可变 元素类型不可变
- * 提供的方法有限 效率不高
+ *      提供的方法有限 效率不高
  * 存储数据特点: 有序 可重复。对于不可重复的需求
- * 无法满足。
+ *               无法满足。
  * 2.   集合解决数组存储数据的弊端 数据可以重复 数据不限制类型
  */
 
@@ -113,6 +113,7 @@ public class CollectionTest{
         }
         System.out.println("##############");
 
+        //    集合转数组 然后遍历数组 循环输出集合元素
         Object[] s = arr.toArray();
         for( int i = 0; i < s.length; i++ ){
             System.out.println(s[i]);
@@ -189,6 +190,7 @@ public class CollectionTest{
                 iterator1.remove();
             }
         }
+        System.out.println("删除xyz后的集合："+strings);
 
          iterator1 = strings.iterator();
         while (iterator1.hasNext()){

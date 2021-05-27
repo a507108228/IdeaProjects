@@ -14,9 +14,9 @@ public class PropertiesTest{
         FileInputStream fis = new FileInputStream("jdbc.properties");
         //    加载流对应的文件
         properties.load(fis);
-        String username = properties.getProperty("username");
+        String user = properties.getProperty("user");
         String password = properties.getProperty("password");
 
-        System.out.println("account:"+username+"---"+"password:"+password);
+        System.out.println("account:"+user+"---"+"password:"+password);
     }
 }

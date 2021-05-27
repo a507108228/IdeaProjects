@@ -10,11 +10,12 @@ import java.util.Iterator;
 /**
  * @author lzw
  * @version 2021/5/21 19:46
- * 无序性：按照哈希值排列
  *
- * 不可重复性：new 的对象因为在内存中位置不同
- * 所以 能输出相同的元素 但是实际是没有重复
- * 重写equals 能解决这个问题
+ *      无序性：按照哈希值排列
+ *
+ *      不可重复性：new 的对象因为在内存中位置不同
+ *                  所以 能输出相同的元素 但是实际是没有重复
+ *                  重写equals 能解决这个问题
  *
  */
 
@@ -86,7 +87,7 @@ class User implements Comparable , Comparator{
 
 
 /**
- *<p> 输出的结果
+ *<p> 重写输出的结果
  *     长度6
  *      99
  *      6
@@ -94,6 +95,16 @@ class User implements Comparable , Comparator{
  *      User{name='liziwei', age=18}
  *      58
  *      12
+ * <p>  没有重写
+ * 长度：7
+ * User{name='zhangyu', age=18}
+ * 99
+ * User{name='liziwei', age=18}
+ * 6
+ * User{name='liziwei', age=18}
+ * 58
+ * 12
+ *
  */
 public class SetTest{
 
@@ -105,6 +116,7 @@ public class SetTest{
         integers.add(06);
         integers.add(99);
         integers.add(99);
+        //    如果不重写equals 和 hashcode 方法 下面相同的User都会输出
         integers.add(new User("liziwei",18));
         integers.add(new User("liziwei",18));
         integers.add(new User("zhangyu",18));
@@ -119,7 +131,12 @@ public class SetTest{
         }
     }
 
-
+    /**
+     * @author: a5071
+     * @time: 2021/5/23 10:49
+     *<p>
+     *     关于hashset的一道面试题 hashset底层存储规则
+     */
     @Test
     public void test2(){
         HashSet set = new HashSet();
@@ -140,7 +157,6 @@ public class SetTest{
         //    下面这个对象哈希值是一样的 但是调用equals是 cc 与 aa不一样
         set.add(new Person("AA",1001));
         System.out.println(set);
-
 
     }
 }

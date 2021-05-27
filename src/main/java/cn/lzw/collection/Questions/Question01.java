@@ -1,15 +1,13 @@
 package cn.lzw.collection.Questions;
 
-
-import org.junit.Test;
-
 import java.util.*;
 
 /**
  * @author lzw
  * @version 2021/5/22 19:15
- * 1.请从键盘随机输入10个整数保存到List中，并按倒序、从大
- * 到小的顺序显示出来
+ * <p>
+ *     1.请从键盘随机输入10个整数保存到List中，并按倒序、从大
+ *       到小的顺序显示出来
  *
  */
 
@@ -42,9 +40,4 @@ public class Question01{
         scanner.close();
     }
 
-
-    @Test
-    public void test(){
-
-    }
 }

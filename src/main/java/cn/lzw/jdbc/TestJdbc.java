@@ -1,9 +1,13 @@
 package cn.lzw.jdbc;
 
+import org.junit.Test;
+
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Properties;
 
 /**
  * @author lzw
@@ -41,5 +45,28 @@ public class TestJdbc{
         statement.close();
         connection.close();
 
+    }
+
+
+    @Test
+    public void test() throws Exception{
+        //    类名调用系统加载器
+        InputStream is = TestJdbc.class.getClassLoader()
+                .getResourceAsStream("jdbc.properties");
+        Properties properties = new Properties();
+        properties.load(is);
+
+        String user = properties.getProperty("user");
+        String password = properties.getProperty("password");
+        String url = properties.getProperty("url");
+        String driverClass = properties.getProperty("driverClass");
+
+        Class.forName(driverClass);
+
+        //    获取连接
+        Connection conn = DriverManager.getConnection(url, user, password);
+        System.out.println(conn);
+
+        conn.close();
     }
 }

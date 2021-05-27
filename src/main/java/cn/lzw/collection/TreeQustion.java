@@ -172,7 +172,7 @@ public class TreeQustion{
 
     /**
      * <p>
-     * 按照生日排列
+     * 按照定制排列
      */
     @Test
     public void test1 (){
@@ -218,8 +218,6 @@ public class TreeQustion{
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-
-
 
     }
 }
