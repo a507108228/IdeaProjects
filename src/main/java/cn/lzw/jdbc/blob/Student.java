@@ -5,12 +5,6 @@ import java.sql.Blob;
 /**
  * @author lzw
  * @version 2021/5/26 17:50
- * <p>
- *     针对一个表的增删改查
- * 请选择您要输入的类型：
- * a.准考证号
- * b.身份证号       进行查询
- * </p>
  */
 
 class Student{
@@ -27,7 +21,7 @@ class Student{
         super();
     }
 
-    public Student(int flowid, int type, String idcard, String examcard, String studentname, String location, int grade ,byte photo){
+    public Student(int flowid, int type, String idcard, String examcard, String studentname, String location, int grade, byte photo){
         super();
         this.flowid = flowid;
         this.type = type;
@@ -111,8 +105,8 @@ class Student{
                 "examcard=" + "\t" + examcard + "\n" +
                 "studentname=" + "\t" + studentname + "\n" +
                 "location=" + "\t" + location + "\n" +
-                "grade=" + "\t" + grade + "\n"+
-                "photo="+"\t"+ photo+"\n";
+                "grade=" + "\t" + grade + "\n" +
+                "photo=" + "\t" + photo + "\n";
 
     }
 }

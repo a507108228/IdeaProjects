@@ -1,20 +1,19 @@
 package cn.lzw.jdbc.preparestatement.crud;
 
+import cn.lzw.jdbc.bean.Kkb_skill;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
+import java.sql.*;
 
-import java.sql.SQLException;
 import java.util.Properties;
 
 
 /**
  * @author lzw
  * @version 2021/5/24 15:10
- *
+ * <p>
  * 普通方式增删改
  */
 
@@ -153,7 +152,7 @@ public class PrepareStatementUpadteTest{
             ps = conn.prepareStatement(sql);
 
             ps.setInt(1, 4);
-            ps.setString(2,"睡觉");
+            ps.setString(2, "睡觉");
 
             ps.execute();
         }catch (Exception e){
@@ -175,4 +174,82 @@ public class PrepareStatementUpadteTest{
             }
         }
     }
+
+    //    查询操作
+    @Test
+    public void testSelect(){
+        InputStream is = null;
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try{
+            is = ClassLoader.getSystemClassLoader().getResourceAsStream("jdbc.properties");
+
+            Properties properties = new Properties();
+
+            properties.load(is);
+
+            String user = properties.getProperty("user");
+            String password = properties.getProperty("password");
+            String url = properties.getProperty("url");
+            String driverClass = properties.getProperty("driverClass");
+
+            Class.forName(driverClass);
+            conn = DriverManager.getConnection(url, user, password);
+
+            String sql = "select *from kkb_skill where id = ?";
+
+            ps = conn.prepareStatement(sql);
+
+            ps.setObject(1, 2);
+
+            rs = ps.executeQuery();
+
+            if( rs.next() ){
+                int id = rs.getInt(1);
+                int userid = rs.getInt(2);
+                String keywords = rs.getString(3);
+
+                Kkb_skill kkb_skill = new Kkb_skill(id, userid, keywords);
+                System.out.println(kkb_skill);
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+        }catch (ClassNotFoundException e){
+            e.printStackTrace();
+        }catch (SQLException e){
+            e.printStackTrace();
+        } finally {
+            if( rs != null ){
+                try{
+                    rs.close();
+                }catch (SQLException e){
+                    e.printStackTrace();
+                }
+            }
+            if( ps != null ){
+                try{
+                    ps.close();
+                }catch (SQLException e){
+                    e.printStackTrace();
+                }
+            }
+            if( conn != null ){
+                try{
+                    conn.close();
+                }catch (SQLException e){
+                    e.printStackTrace();
+                }
+            }
+            if( is != null ){
+                try{
+                    is.close();
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+
 }

@@ -2,7 +2,6 @@ package cn.lzw.jdbc.exer;
 
 import cn.lzw.util.JDBCUtils;
 
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.Scanner;
@@ -48,8 +47,8 @@ public class QuestionDemo01{
                 ps.setObject(i + 1, args[i]);
             }
 
-            // ps.execute();
             return ps.executeUpdate();
+
         }catch (Exception e){
             e.printStackTrace();
         } finally {

@@ -14,10 +14,9 @@ import java.sql.ResultSet;
  * @author lzw
  * @version 2021/5/27 10:36
  * <p>
- * 测试使用preparestatement 操作blob数据
- * 使用了 io 管道流 字符输入输出流 文件复制
- * 封装工具 查询 插入
- * </p>
+ *      测试使用preparestatement 操作blob数据
+ *      使用了 io 管道流 字符输入输出流 文件复制
+ *      封装工具 查询 插入
  */
 public class BlobTest01{
 
@@ -40,12 +39,14 @@ public class BlobTest01{
             ps.setBlob(4, bs);
 
             ps.execute();
+
         }catch (Exception e){
             e.printStackTrace();
         } finally {
             JDBCUtils.closeResource(conn, ps);
         }
     }
+
 
     //    查询blob
     @Test
@@ -83,6 +84,7 @@ public class BlobTest01{
                     bos.write(bytes, 0, len);
                 }
             }
+
         }catch (Exception e){
             e.printStackTrace();
         } finally {
@@ -99,5 +101,4 @@ public class BlobTest01{
             JDBCUtils.closeResource(conn, ps, rs);
         }
     }
-
 }

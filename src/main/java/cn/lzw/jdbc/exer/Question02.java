@@ -2,12 +2,17 @@ package cn.lzw.jdbc.exer;
 
 import cn.lzw.util.JDBCUtils;
 
-import javax.lang.model.element.NestingKind;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.Scanner;
 
-
+/**
+ * @author: a5071
+ * @time: 2021/5/27 22:40
+ *<p>
+ *     往数据表中插入数据 通过控制台输入
+ *     进而录入到数据库中
+ */
 public class Question02{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -58,5 +63,4 @@ public class Question02{
         }
         return 0;
     }
-
 }

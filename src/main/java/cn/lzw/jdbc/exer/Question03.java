@@ -12,10 +12,6 @@ import java.util.Scanner;
  * @version 2021/5/26 17:50
  * <p>
  *     针对一个表的增删改查
- * 请选择您要输入的类型：
- * a.准考证号
- * b.身份证号       进行查询
- * </p>
  */
 
 class Student{
@@ -110,6 +106,12 @@ class Student{
     }
 }
 
+/**
+ * @author: a5071
+ * @time: 2021/5/27 22:44
+ *<p>
+ *     键盘录入数据，进行增删改查
+ */
 public class Question03{
     public static void main(String[] args){
         System.out.println("请选择您要输入的类型：");

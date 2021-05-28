@@ -25,10 +25,10 @@ public class PrepareStatementCURD{
         try{
             conn = JDBCUtils.getConnection();
 
-            String sql = "select id,userid,keywords from kkb_skill where id = ?; ";
+            String sql = "select *from kkb_skill where id = ?; ";
             ps = conn.prepareStatement(sql);
 
-            ps.setObject(1,1);
+            ps.setObject(1,2);
 
             //    返回结果集
             resultSet = ps.executeQuery();

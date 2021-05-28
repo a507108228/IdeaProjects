@@ -38,7 +38,6 @@ public class UniversalCURD{
     }
 
 
-
     public int update(String sql , Object ...args){
 
         Connection conn = null;
@@ -52,6 +51,7 @@ public class UniversalCURD{
             }
 
             ps.execute();
+
         }catch (Exception e){
             e.printStackTrace();
         } finally {

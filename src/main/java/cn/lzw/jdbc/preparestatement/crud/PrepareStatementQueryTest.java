@@ -12,11 +12,12 @@ import java.sql.*;
 /**
  * @author lzw
  * @version 2021/5/25 14:30
- *<p>针对不同表的通用查询</p>
- *
+ * <p>
+ *      针对不同表的通用查询
+ * </p>
  */
-public class PrepareStatementQueryTest{
 
+public class PrepareStatementQueryTest{
 
     @Test
     public void test(){
@@ -28,10 +29,9 @@ public class PrepareStatementQueryTest{
         Kkb_edu instance1 = getInstance(Kkb_edu.class, sql1, 2);
         System.out.println(instance1);
 
-
     }
 
-    public <T> T getInstance(Class<T> clazz ,String sql , Object...args){
+    public < T > T getInstance(Class< T > clazz, String sql, Object... args){
         Connection conn = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -41,7 +41,7 @@ public class PrepareStatementQueryTest{
             ps = conn.prepareStatement(sql);
 
             for( int i = 0; i < args.length; i++ ){
-                ps.setObject(i+1,args[i]);
+                ps.setObject(i + 1, args[i]);
             }
 
             rs = ps.executeQuery();
@@ -53,7 +53,9 @@ public class PrepareStatementQueryTest{
             int columnCount = rsmd.getColumnCount();
 
             if( rs.next() ){
+
                 T t = clazz.newInstance();
+
                 //    获取列的个数
                 for( int i = 0; i < columnCount; i++ ){
                     Object values = rs.getObject(i + 1);
@@ -63,17 +65,16 @@ public class PrepareStatementQueryTest{
                     Field field = clazz.getDeclaredField(columnName);
 
                     field.setAccessible(true);
-                    field.set(t,values);
+                    field.set(t, values);
                 }
                 return t;
             }
+
         }catch (Exception e){
             e.printStackTrace();
         } finally {
-            JDBCUtils.closeResource(conn,ps,rs);
+            JDBCUtils.closeResource(conn, ps, rs);
         }
         return null;
-
     }
-
 }
