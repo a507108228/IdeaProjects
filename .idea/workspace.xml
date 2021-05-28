@@ -10,30 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-dbutils-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/Kkb_skillDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/Kkb_skillDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/blob/BlobTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/blob/BlobTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/blob/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/blob/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Question02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Question02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Question03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Question03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/QuestionDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/QuestionDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementCURD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementCURD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementQueryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementUpadteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementUpadteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalCURD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalCURD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,12 +52,33 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="11" lean-forward="true" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="56" lean-forward="true" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="66" lean-forward="true" selection-end-line="196" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4323">
-              <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+            <state relative-caret-position="452">
+              <caret line="122" lean-forward="true" selection-end-line="128" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,8 +180,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/util/DuridUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridCURD.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java" />
       </list>
     </option>
   </component>
@@ -221,20 +220,55 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
+              <item name="jdbc" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
+              <item name="jdbc" type="1f31426a:PackageElementNode" />
+              <item name="durid" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
+              <item name="util" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -294,17 +328,6 @@
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-dbutils-1.3.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,44 +350,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lzw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="durid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzw" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -372,34 +357,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.lzw" type="1f31426a:PackageElementNode" />
-              <item name="jdbc" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -415,7 +372,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622187697487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622190728559" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -471,7 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryUpdate.test3">
+  <component name="RunManager" selected="JUnit.QueryUpdate.test01">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lzw.imook.Demo" />
       <module name="IdeaProjects" />
@@ -504,23 +461,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuridTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.jdbc.durid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.jdbc.durid" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.jdbc.durid.DuridTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryUpdate.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryUpdate.test00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
@@ -530,7 +471,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.lzw.jdbc.durid" />
       <option name="MAIN_CLASS_NAME" value="cn.lzw.jdbc.durid.QueryUpdate" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test00" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryUpdate.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.jdbc.durid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.lzw.jdbc.durid" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.jdbc.durid.QueryUpdate" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -670,20 +627,20 @@
       <item itemvalue="Application.TextScaanner" />
       <item itemvalue="JUnit.All in IdeaProjects" />
       <item itemvalue="JUnit.cn.lzw.jdbc.dao in IdeaProjects" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
-      <item itemvalue="JUnit.DuridTest.test" />
-      <item itemvalue="JUnit.QueryUpdate.test" />
       <item itemvalue="JUnit.QueryUpdate.test1" />
       <item itemvalue="JUnit.QueryUpdate.test2" />
       <item itemvalue="JUnit.QueryUpdate.test3" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
+      <item itemvalue="JUnit.QueryUpdate.test00" />
+      <item itemvalue="JUnit.QueryUpdate.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueryUpdate.test01" />
+        <item itemvalue="JUnit.QueryUpdate.test00" />
         <item itemvalue="JUnit.QueryUpdate.test3" />
         <item itemvalue="JUnit.QueryUpdate.test2" />
         <item itemvalue="JUnit.QueryUpdate.test1" />
-        <item itemvalue="JUnit.QueryUpdate.test" />
-        <item itemvalue="JUnit.DuridTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -832,7 +789,9 @@
       <workItem from="1622112626571" duration="6508000" />
       <workItem from="1622124549406" duration="3300000" />
       <workItem from="1622164931454" duration="6935000" />
-      <workItem from="1622182783804" duration="4890000" />
+      <workItem from="1622182783804" duration="5928000" />
+      <workItem from="1622189639916" duration="25000" />
+      <workItem from="1622189692052" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -953,19 +912,17 @@
       <option name="project" value="LOCAL" />
       <updated>1622085927687</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1622187733694</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622187733694</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DuridTest_test - 2021.05.28 at 14h 40m 07s.xml">
-      <configuration name="DuridTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryUpdate_test - 2021.05.28 at 14h 57m 07s.xml">
-      <configuration name="QueryUpdate.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryUpdate_test - 2021.05.28 at 14h 57m 21s.xml">
-      <configuration name="QueryUpdate.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueryUpdate_test1 - 2021.05.28 at 15h 05m 50s.xml">
       <configuration name="QueryUpdate.test1" configurationId="JUnit" />
     </history-entry>
@@ -987,9 +944,18 @@
     <history-entry file="QueryUpdate_test3 - 2021.05.28 at 15h 38m 10s.xml">
       <configuration name="QueryUpdate.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueryUpdate_test00 - 2021.05.28 at 16h 27m 26s.xml">
+      <configuration name="QueryUpdate.test00" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryUpdate_test01 - 2021.05.28 at 16h 28m 27s.xml">
+      <configuration name="QueryUpdate.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryUpdate_test01 - 2021.05.28 at 16h 28m 55s.xml">
+      <configuration name="QueryUpdate.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="463017000" />
+    <option name="totallyTimeSpent" value="465182000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1001,10 +967,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.08742005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.1812227" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1013,7 +979,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.28285077" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" visible="true" weight="0.28285077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39075145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1316,13 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/Kkb_skillDAOImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1393,23 +1352,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/DuridUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridCURD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/DuridUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridCURD.java" />
     <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷_宋红康_JDBC核心技术/5-代码/jdbc_2/src/com/atguigu4/util/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
@@ -1435,16 +1379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷_宋红康_JDBC核心技术/5-代码/jdbc_2/src/com/atguigu5/dbutils/QueryRunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5389">
@@ -1458,10 +1392,17 @@
     <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3-src.zip!/commons-dbutils-1.3-src/src/java/org/apache/commons/dbutils/handlers/BeanListHandler.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="11" lean-forward="true" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="56" lean-forward="true" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1470,8 +1411,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4323">
-          <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+        <state relative-caret-position="462">
+          <caret line="66" lean-forward="true" selection-end-line="196" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="122" lean-forward="true" selection-end-line="128" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

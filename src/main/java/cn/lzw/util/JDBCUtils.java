@@ -40,8 +40,9 @@ public class JDBCUtils{
      * 使用Druid数据库连接池技术
      */
     private static DataSource source1;
+
     static{
-        try {
+        try{
             Properties pros = new Properties();
 
             InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("druid.properties");
@@ -49,10 +50,11 @@ public class JDBCUtils{
             pros.load(is);
 
             source1 = DruidDataSourceFactory.createDataSource(pros);
-        } catch (Exception e) {
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
+
     public static Connection getConnection1() throws SQLException{
 
         Connection conn = source1.getConnection();
@@ -63,8 +65,8 @@ public class JDBCUtils{
     /**
      * @author: a5071
      * @time: 2021/5/28 14:32
-     *<p>
-     *     关闭操作
+     * <p>
+     * 关闭操作
      */
     public static void closeResource(Connection conn, Statement ps){
         //    资源关闭
@@ -115,10 +117,9 @@ public class JDBCUtils{
     /**
      * @author: a5071
      * @time: 2021/5/28 14:42
-     *<p>
-     *
+     * <p>
      */
-    public static void closeResource1(Connection conn,Statement ps,ResultSet rs){
+    public static void closeResource1(Connection conn, Statement ps, ResultSet rs){
 
         DbUtils.closeQuietly(conn);
         DbUtils.closeQuietly(ps);

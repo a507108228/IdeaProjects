@@ -47,6 +47,42 @@ public class QueryUpdate{
         }
     }
 
+    //    增加数据
+    @Test
+    public void test00(){
+
+        Connection conn = null;
+        try{
+            QueryRunner qr = new QueryRunner();
+            conn = JDBCUtils.getConnection1();
+            String sql = "insert into kkb_skill values(?,?,?)";
+            int insert = qr.update(conn, sql, 12, 12, 12);
+            System.out.println(insert);
+        }catch (SQLException e){
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.closeResource1(conn, null, null);
+        }
+    }
+
+    //    删除数据
+    @Test
+    public void test01(){
+
+        Connection conn = null;
+        try{
+            QueryRunner qr = new QueryRunner();
+            conn = JDBCUtils.getConnection1();
+            String sql = "delete from kkb_skill where userid = ?";
+            int delete = qr.update(conn, sql, 12);
+            System.out.println(delete);
+        }catch (SQLException e){
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.closeResource1(conn, null, null);
+        }
+    }
+
 
     /**
      * @author: a5071
