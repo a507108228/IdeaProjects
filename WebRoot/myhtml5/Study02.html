@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/样式2.css" rel="stylesheet">
+    <title>day02</title>
+</head>
+<body>
+<!--有序无序列表-->
+<ol start="10" type="1">
+    <li>ol</li>
+    <li>ol</li>
+    <li>ol是有序列表 可以指定开始时间 序号类型</li>
+</ol>
+<li>li是干嘛的,前面加一个点点？</li>
+<!--circle空心圆  square方块  disc实点-->
+<ul type="circle">
+    <li>ul</li>
+    <li>ul</li>
+    <li>ul是无序列表</li>
+    <ul>
+        <li>wuxu</li>
+        <li>qiantao</li>
+    </ul>
+    方向是正确的，你一定能学好的
+</ul>
+
+<!--div span 不知道干吗的-->
+<div class="news">
+    <h2>news headline 1</h2>
+    <p>this is a paragraph</p>
+</div>
+<div class="news" style="font-family: 幼圆">
+    <h2>news headline 1</h2>
+    <p>this is a paragraph</p>
+</div>
+<span class="A">some text .</span>
+
+<!--类：为某一部分定义类 方便用css修改   .类名-->
+
+<div class="cities">
+    <h2>郑州</h2>
+    <p>
+        郑州位于我国版图的中部，有得中原者得天下的美称。
+        因其地理位置特殊，成为了中国的交通枢纽，铁路如同
+        长龙一般横跨东南西北中
+    </p>
+</div>
+
+<!--id: #id名字设置css样式-->
+<h3 id="love"> My H3
+    my love</h3>
+
+<p><a href="#C4">跳转到 第四章节</a></p>
+<p><a href="#C8">跳转到 第十章节</a></p>
+<p><a href="Study02.html#C8"></a></p>
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C8">Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>在JavaScript中使用 id 属性</h2>
+<p>javascript 可以使用getElementById()方法访问具有指定id的元素：</p>
+<h2 id="myH2"> hello world</h2>
+
+<button onclick="displayResult()">改变文本</button>
+
+<script>
+    function displayResult() {
+        document.getElementById("myH2").innerHTML = "Have a nice day!";
+    }
+</script>
+
+<!--iframe 内联框架用于在网页中显示网页-->
+<iframe src="18软三_17李梓玮.html" width="800" height="200" frameborder="0"></iframe>
+
+<!--JavaScript-->
+<h2>JavaScript</h2>
+<button type="button" onclick="document.getElementById('demo')
+            .innerHTML = Date();">
+    点击我显示时间
+</button>
+
+<button type="button" onclick="displayResult()">
+    点击我改变文本
+</button>
+
+<button type="button" onclick=" f()">
+    点击我咋咋咋
+</button>
+<script>
+    function f() {
+        document.getElementById('demo').innerHTML = Date();
+    }
+</script>
+<p id="demo"></p>
+
+<!--JavaScript对文本进行改变-->
+<script>
+    function f1() {
+        document.getElementById("C4").style.fontFamily = "微软雅黑";
+        document.getElementById("C4").style.color = "red";
+        document.getElementById("C4").style.backgroundColor = "yellow";
+    }
+</script>
+<button type="button" onclick="f1()">点击此按钮改变上面第四章的标题</button>
+
+<!--变换-->
+<div class="tupian">
+<script>
+    function change(sw) {
+        var pic1;
+        var pic2;
+        if (sw == 0){
+            pic1 = "images/前端.png"
+        } else {
+            pic2 = "images/李梓玮.jpg"
+        }
+        document.getElementById('myImage1').src = pic1;
+        document.getElementById('myImage2').src = pic2;
+    }
+</script>
+<img id="myImage2" src="images/李梓玮.jpg" width="200" height="200">
+<img id="myImage1" src="images/前端.png" width="200" height="200">
+<p>
+    <button type="button" onclick="change(1)">haha</button>
+    <button type="button" onclick="change(0)">heihei</button>
+</p>
+</div>
+
+<div class="name">
+    <h1>lzw</h1>
+    <p>有一个人叫做李梓玮在这个世界已经23年了</p>
+    <p>他曾经喜欢过一个叫做张玉的女生  但是最终选择放弃她
+            他也曾思考过无数个夜晚  到底是怎么走到这一步的
+            只要发生争执  总是李梓玮选择冷暴力  而温暖如春的张玉
+            也总是再包容着我  好遗憾啊  怀恋18年夏天的她</p>
+</div>
+<div class="name">
+    <h1>zy</h1>
+    <p>有一个人叫做张玉在这个世界已经23年了</p>
+    <p>温暖如春的张玉  她曾经应该也是喜欢过李梓玮
+            只不过当初李梓玮拒绝了她  所以啊  当时她有
+            多么的尴尬  而后找了一个对象  李梓玮那个小心眼的男人
+            又在作什么妖</p>
+</div>
+<div class="name">
+    <h1>zxt</h1>
+    <p>有一个人叫做周祥涛在这个世界已经23年了</p>
+    <p>周祥涛就是一个大沙雕  但是这个大傻吊很成熟
+            会动脑筋  权衡利弊  也很乐观  他现在的生活
+            可是非常的精彩  只是他已经毕业参加工作了
+            人这一生总是在不停的分别呢</p>
+</div>
+
+<!--  表格  -->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+    <tr>
+    <tr>
+        <td>A</td>
+        <td>Description of A</td>
+    <tr>
+    <tr>
+        <td>B</td>
+        <td>Description of B</td>
+    <tr>
+</table>
+
+<!-- 框架 rows 水平  cols 垂直-->
+
+<iframe src="/myhtml5/18软三_17李梓玮.html" class="name"></iframe>
+<iframe src="/myhtml5/Study01.html" class="name"></iframe>
+<iframe src="/myhtml5/重定向.html" class="name"></iframe>
+
+
+</body>
+</html>

@@ -35,9 +35,13 @@ public class TimeTest{
 
         System.out.println("相差的毫秒为"+t3);
 
+        //    已经过去ago天了
+        long ago = t3/1000/60/60/24;
+        System.out.println(str+"\t距今已经过去"+"\t"+ago+"\t"+"天了");
 
-        System.out.println(str+"\t距今已经过去"+"\t"+t3/1000/60/60/24+"\t"+"天了");
-
+        //    大概多少岁age
+        // long age = ago/365;
+        // System.out.println("大概"+age+"岁了");
 /*        System.out.println(Long.MAX_VALUE);
         System.out.println(Long.MIN_VALUE);
         System.out.println(Long.SIZE);

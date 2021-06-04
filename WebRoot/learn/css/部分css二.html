@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/3 15:51
+    * @description: 部分css样式 position 学习
+    -->
+    <meta charset="UTF-8">
+    <title>csslearn</title>
+    <style>
+        <!--
+        设置宽度 max宽度 max宽度能随着窗口变化而变化-- >
+        div.ex1 {
+            width: 500px;
+            margin: auto;
+            border: 3px solid #73AD21;
+        }
+
+        div.ex2 {
+            max-width: 500px;
+            margin: auto;
+            border: 3px solid #73AD21;
+        }
+
+        /* position 设置为static 根据页面进行定位 */
+        div.static {
+            position: static;
+            border: 3px solid #73AD21;
+        }
+
+        /* fixed 相对视口（上下左右）设置的值定位*/
+        div.fixed {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            border: 3px solid #73AD21;
+        }
+
+        /* relative 相对*/
+        div.relative {
+            position: relative;
+            left: 50px;
+            top: 5px;
+            border: 3px solid #73AD21;
+        }
+
+        /* absolute 相对于 relation 设置*/
+        div.relative {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 3px solid #73AD21;
+        }
+        div.absolute {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 3px solid #73AD21;
+        }
+
+        /* 粘性 滚动页面也停留在某个具体位置 */
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!-- 设置宽度 max宽度 max宽度能随着窗口变化而变化-->
+<div>
+    <h2>CSS Max-width</h2>
+
+    <div class="ex1">这个 div 元素的宽度是：500px;</div>
+    <br>
+    <div class="ex2">这个 div 元素的最大宽度是：500px;</div>
+    <p><b>提示：</b>将浏览器窗口拖动到小于500px的宽度，以查看这两个 div ！</p>
+</div>
+
+<div>
+    <h1>position: static;</h1>
+
+    <p>设置 position: static; 的元素不会以任何特殊方式定位；它是始终根据页面的正常流进行定位：</p>
+
+    <div class="static">
+        这个 div 元素设置 position: static;
+    </div>
+    ------------------------
+    <h1>position: fixed;</h1>
+
+    <p>设置 position: fixed; 的元素会相对视口定位，这意味着即使页面滚动也会停留在某个位置：</p>
+
+    <div class="fixed">
+        这个 div 元素设置 position: fixed;
+    </div>
+    -------------------------
+    <h1>position: relative;</h1>
+
+    <p>设置 position: relative; 的元素相对于其正常位置进行定位：</p>
+
+    <div class="relative">
+        这个 div 元素设置 position: relative;
+    </div>
+    --------------------------
+    <h1>position: absolute;</h1>
+
+    <p>设置 position: absolute; 的元素会相对于最近的定位祖先进行定位（而不是相对于视口进行定位，比如 fixed）：</p>
+
+    <div class="relative">这个 div 元素设置 position: relative;
+        <div class="absolute">这个 div 元素设置 position: absolute;</div>
+    </div>
+
+    <p>请试着在这个框架内<b>滚动</b>页面，以理解粘性定位的原理。</p>
+
+    <div class="sticky">我是有粘性的！</div>
+
+    <div style="padding-bottom:2000px">
+        <p>在此例中，当您到达元素的滚动位置时，粘性元素将停留在页面顶部（top: 0）。</p>
+        <p>向上滚动以消除粘性。</p>
+        <p>一些启用滚动的文本.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>一些启用滚动的文本.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    </div>
+</div>
+
+
+</body>
+</html>

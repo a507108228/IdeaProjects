@@ -1,0 +1,16 @@
+p,h1,h2,h3{
+    font-family: "Microsoft YaHei UI";
+    font-size: larger;
+}
+body{
+    background: antiquewhite;
+}
+img{
+    position:absolute;
+    right: 30px;
+    top: 10px;
+}
+b{
+    font-size: larger;
+
+}

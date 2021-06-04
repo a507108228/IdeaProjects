@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/4 15:46
+    * @description: 执行一次 重复 终止 执行某事件
+    -->
+    <meta charset="UTF-8">
+    <title>弹出窗</title>
+</head>
+<body>
+<!-- 只显示一次-->
+<script>
+    function printTime(){
+        var d = new Date();
+        var h= d.getHours();
+        var m= d.getMinutes();
+        var s= d.getSeconds();
+        document.getElementById("time").innerHTML= h+":"+m+":"+s;
+    }
+    function showTimeIn3Seconds(){
+        setTimeout(printTime,3000);
+    }
+</script>
+<div id="time"></div>
+<button onclick="showTimeIn3Seconds()">点击后3秒钟后显示当前时间，并且只显示一次</button>
+<br>
+
+<!-- 不停的重复执行 -->
+<p>每隔1秒钟，打印当前时间</p>
+<div id="shijian"></div>
+<script>
+    function printTime(){
+        var d = new Date();
+        var h= d.getHours();
+        var m= d.getMinutes();
+        var s= d.getSeconds();
+        document.getElementById("shijian").innerHTML= h+":"+m+":"+s;
+    }
+    var t = setInterval(printTime,1000);
+</script>
+<br>
+
+ <!-- 终止重复执行 -->
+<p>每隔1秒钟，打印当前时间 五的倍数停止 </p>
+
+<div id="time2"></div>
+
+<script>
+
+    var t = setInterval(printTime,1000);
+
+    function printTime(){
+        var d = new Date();
+        var h= d.getHours();
+        var m= d.getMinutes();
+        var s= d.getSeconds();
+        document.getElementById("time2").innerHTML= h+":"+m+":"+s;
+        if(s%5==0)
+            clearInterval(t);
+    }
+
+</script>
+<br>
+
+ <!-- 不要在setinterval调用的函数中使用doncument.write() -->
+<p>每隔1秒钟，通过document.write打印当前时间</p>
+
+<script>
+
+    function printTime(){
+        var d = new Date();
+        document.write(d.getHours());
+        document.write(":");
+        document.write(d.getMinutes());
+        document.write(":");
+        document.write(d.getSeconds());
+        document.close();
+    }
+
+    var t = setInterval(printTime,1000);
+
+</script>
+</body>
+</html>

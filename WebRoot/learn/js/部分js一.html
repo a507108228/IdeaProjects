@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/3 17:30
+    * @description: js基础阶段学习
+    -->
+    <meta charset="UTF-8">
+    <title>js</title>
+    <style>
+        /* 面板样式 */
+        #panel, .flip {
+            font-size: larger;
+            padding: 10px;
+            text-align: center;
+            background-color: limegreen;
+            color: white;
+            margin: auto;
+        }
+        /* 面板隐藏 */
+        #panel {
+            display: none;
+        }
+        /* 面板选择按钮 */
+        button {
+            text-align: center;
+            border: 1px solid black;
+            margin: auto;
+            padding: 5px;
+            background-color: limegreen;
+            outline-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+<!--&lt;!&ndash; 显示时间日期 &ndash;&gt;-->
+<!--<button type="button" onclick="document.getElementById('demo')-->
+<!--.innerHTML = Date()">点击此处显示时间</button>-->
+
+<!--<p id="demo"></p>-->
+<!--&lt;!&ndash; innerHtml、 write（）、alert（）、console.log() &ndash;&gt;-->
+<!--<script>-->
+    <!--console.log("5+6 ="+(5+6));-->
+    <!--// alert("答案为："+1+1);-->
+    <!--// document.write("答案为："+1+1);-->
+    <!--document.getElementById("demo").innerHTML ="答案为："+ 1+1;-->
+<!--</script>-->
+
+<!--&lt;!&ndash; 结合css script html 编写的展开 隐藏面板 &ndash;&gt;-->
+<!--<script>-->
+    <!--function myFunction(sw) {-->
+        <!--if (sw == 0) {-->
+            <!--document.getElementById("panel").style.display = "block";-->
+        <!--} else {-->
+            <!--document.getElementById("panel").style.display = "none";-->
+        <!--}-->
+    <!--}-->
+<!--</script>-->
+
+<!--<p class="flip" onclick="myFunction()">点击下列按钮</p>-->
+<!--<button type="button" onclick="myFunction(0)">展开</button>-->
+<!--<button type="button" onclick="myFunction(1)">隐藏</button>-->
+<!--<div id="panel">-->
+    <!--<p>该面板包含一个 div 元素，默认情况下该元素是隐藏的（display: none）。</p>-->
+    <!--<p>它使用 CSS 进行样式设置，我们使用 JavaScript 来显示它（display: block）。</p>-->
+    <!--<p>工作原理：请注意，带有 class="flip" 的 p 元素有 onclick 属性。当用户单击 p 元素时，将执行一个名为 myFunction() 的函数，该函数将 id="panel" 的 div 样式从-->
+        <!--display:none（隐藏）更改为 display:block（可见）。</p>-->
+    <!--<p>您将在我们的 JavaScript 教程中学到有关 JavaScript 的更多知识。</p>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;JavaScript typeof&ndash;&gt;-->
+
+<!--<p>typeof 运算符返回变量或表达式的类型：</p>-->
+<!--<p id="demo1"></p>-->
+<!--<script>-->
+    <!--document.getElementById("demo1").innerHTML =-->
+        <!--typeof 0 + "<br>" +-->
+        <!--typeof 314 + "<br>" +-->
+        <!--typeof 3.14 + "<br>" +-->
+        <!--typeof (3) + "<br>" +-->
+        <!--typeof (3 + 4);-->
+<!--</script>-->
+
+<!--<p id="demo2" ></p>-->
+<!--<button type="button" onclick="add(1,2)">点击按钮改变结果</button>-->
+<!--<script>-->
+
+    <!--function add(p1,p2) {-->
+        <!--document.getElementById("demo2").innerHTML =-->
+            <!--(p1+p2);-->
+    <!--}-->
+<!--</script>-->
+<!--<script>-->
+    <!--var x = add(2,5);-->
+<!--</script>-->
+
+<p id="demo3"></p>
+<script>
+    var x = "abccdddakfjdslkfj";
+    var y = "日尼玛的"
+    var x1 = x.length;
+    var x2 = x.lastIndexOf("a");
+    var x3 = x.indexOf("b");
+    var s = x.substring(2,5);
+    var s1 = x.substr(2,5);
+    var s2 = x.slice(2,5);
+
+    var s3 = y.replace("尼玛","**");
+
+    var str = "    hello world   "
+    var s4 = str.trim();
+     document.getElementById("demo3").innerHTML = s4;
+    // document.getElementById("demo3").innerHTML = x2;
+    // document.getElementById("demo3").innerHTML = x3;
+    // document.getElementById("demo3").innerHTML = s;
+    // document.getElementById("demo3").innerHTML = s1;
+    // document.getElementById("demo3").innerHTML = s2;
+    // document.getElementById("demo3").innerHTML = s3;
+
+</script>
+
+<p>concat() 方法连接两个或多个字符串：</p>
+
+<p id="demo4"></p>
+
+<script>
+    var text1 = "Hello";
+    var text2 = "World!";
+    var text3 = text1.concat(" ",text2);
+    document.getElementById("demo4").innerHTML = text3;
+</script>
+
+<!-- 字符串转数组 -->
+<button onclick="myFunction()">试一试</button>
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        // var str = "a,b,c,d,e,f";
+        // var arr = str.split(",");
+        var arr = [1,2,3,4,5];
+        arr.push(6)
+        var text = "<ul>"
+        for (var i = 0; i < arr.length; i++) {
+            text += "<li>"+arr[i]+"</li>"
+        }
+        text += "</ul>"
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
+
+</body>
+</html>

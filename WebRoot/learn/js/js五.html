@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/4 15:22
+    * @description: 窗体
+    -->
+    <meta charset="UTF-8">
+    <title>Windows</title>
+</head>
+<body>
+<script>
+    document.write("文档内容");
+    document.write("文档显示区域的宽度："+window.innerWidth);
+    document.write("<br>");
+    document.write("浏览器的宽度："+window.outerWidth);
+    document.write("<br>");
+    document.write("文档显示区域的高度："+window.innerHeight);
+    document.write("<br>");
+    document.write("浏览器的高度："+window.outerHeight);
+</script>
+
+<!-- 打开一个新窗口 -->
+<br>
+<script>
+    function openNewWindow() {
+        myWindow = window.open("https://www.w3school.com.cn/js/index.asp")
+    }
+</script>
+<button onclick="openNewWindow()">打开一个新窗口</button>
+
+<!-- 打印浏览器产品信息 -->
+<script type="text/javascript">
+    document.write("<p>打印浏览器信息!!!");
+    document.write("<p>浏览器名称：");
+    document.write(navigator.appName+"</p>");
+    document.write("<p>版本号：");
+    document.write(navigator.appVersion+"</p>")
+    document.write("<p>内部代码：");
+    document.write(navigator.appCodeName+"</p>")
+    document.write("<p>操作系统：");
+    document.write(navigator.platform+"</p>");
+    document.write("<p>cookies：");
+    document.write(navigator.cookieEnabled+"</p>");
+    document.write("<p>用户代理报头：");
+    document.write(navigator.userAgent+"</p>");
+</script>
+<br>
+
+<!-- 删除窗体 -->
+<script>
+    function del(){
+        var d = confirm("是否要删除");
+        alert(typeof d + " " + d);
+    }
+</script>
+<br>
+<button onclick="del()">删除</button>
+<br>
+
+
+<!-- 输入框 -->
+<script>
+    function p(){
+        var name = prompt("请输入用户名:");
+        alert("您输入的用户名是:" + name);
+    }
+</script>
+
+<br>
+<button onclick="p()">请输入用户名</button>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/4 10:21
+    * @description:
+    -->
+    <meta charset="UTF-8">
+    <title>字符替换</title>
+</head>
+<body>
+
+<script>
+    function getValue(id){
+        return document.getElementById(id).value;
+    }
+    function setValue(id,value){
+        document.getElementById(id).value=value;
+    }
+    function replace(){
+
+        var src = getValue("src")
+
+        var search = getValue("search")
+        var replace = getValue("replace")
+        var regS = new RegExp(search,"g");
+        var result = src.replace(regS, replace);
+        setValue("result",result);
+    }
+
+</script>
+<table>
+    <tr>
+        <td>源字符串:</td>
+        <td><textarea id="src">example</textarea></td>
+    </tr>
+    <tr>
+        <td>查询:</td>
+        <td><input type="text"  id="search" value="a" ></td>
+    </tr>
+    <tr>
+        <td>替换为:</td>
+        <td><input type="text"  id="replace" value="e" ></td>
+    </tr>
+    <tr>
+        <td>替换结果：</td>
+        <td><textarea id="result"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><button onclick="replace()">替换</button></td>
+        <td></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

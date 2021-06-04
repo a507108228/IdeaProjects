@@ -1,0 +1,26 @@
+/**
+ * @author: a5071
+ * @time: 2021/6/4 16:21
+ *<p> ha
+ */
+p{
+    text-align: left;
+    align-content: center;
+    background: bisque;
+    font-family: "Microsoft YaHei UI Light";
+    color: red;
+    font-size: larger;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    color: black;
+    font-size: x-large;
+}
+
+body{
+    background: antiquewhite;
+    font-family: 幼圆;
+    font-size: large;
+}

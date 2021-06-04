@@ -1,0 +1,38 @@
+.cities{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 幼圆;
+    margin: 20px;
+    padding: 20px;
+}
+span.A{
+    color: deepskyblue;
+    font-size: xx-large;
+    font-family: 幼圆;
+}
+#love{
+    background-color: lightblue;
+    font-size: x-large;
+    font-family: 幼圆;
+    color: black;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}
+.tupian{
+    text-align: center;
+}
+.name{
+    font-family: 幼圆;
+    margin: 5px;
+    padding: 15px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    //    边框
+    border: 1px solid black;
+
+
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/4 8:56
+    * @description: 计算器
+    -->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input{
+            border: 1px solid black;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+
+    function add() {
+
+        var value1 = document.getElementById("num1").value;
+        var value2 = document.getElementById("num2").value;
+        var sum = parseInt(value1)+parseInt(value2);
+        document.getElementById("result").value=sum;
+
+        // var v1 = document.getElementById('num1').value;
+        // var v2 = document.getElementById('num2').value;
+        // var sum = v1 + v2 ;
+        // document.getElementById("result").value = sum;
+
+
+    }
+</script>
+<input id='num1' type="text" > +
+<input id='num2' type="text" > =
+<input id='result' type="text" value="" >
+<button id="button" type="button" onclick="add()" >运算</button>
+
+<script>
+    var a = 0; //定义在函数前面，即全局变量，所有函数都可以访问
+
+    function f1(){
+        document.write('通过函数f1 设置全局变量a的值 为 5');
+        a = 5; //能够访问
+    }
+
+    function f2(){
+        document.write('通过函数f2 访问并打印全局变量a的值 '+a); //能够访问
+    }
+
+    f1(); //通过f1，设置a的值
+    document.write('<br>');
+    f2(); //通过f2,  打印a的值
+</script>
+
+
+<script>
+    document.write("使用while循环打印 0 到 4<br>");
+    function p(s){
+        document.write(s);
+        document.write("<br>");
+    }
+
+    var i = 0;
+    while(i<5){
+        p(i);
+        i++;
+    }
+
+</script>
+
+<script>
+    function p(s){
+        document.write(s);
+        document.write("<br>");
+    }
+    document.write("使用do-while循环打印 0 到 4<br>");
+    var i = 0;
+
+    do{
+        p(i);
+        i++;
+    } while(i<5);
+
+</script>
+
+<script>
+    function p(s){
+        document.write(s);
+        document.write("<br>");
+    }
+
+    document.write("使用for循环打印 0 到 4<br>");
+
+    for(var i=0;i<5;i++){
+        p(i);
+    }
+
+</script>
+
+<script>
+    function p(s){
+        document.write(s);
+        document.write("<br>");
+    }
+
+    document.write("使用for循环打印 0 到 4<br>如果发现是3，就<span style='color:red'>放弃本次循环，并且进入下一次</span>循环<br>");
+
+    for(i=0;i<5;i++){
+        if(i==3)
+            continue;
+        p(i);
+    }
+
+</script>
+
+<script>
+    function p(s){
+        document.write(s);
+        document.write("<br>");
+    }
+
+    document.write("使用for循环打印 0 到 4<br>如果发现是3，就<span style='color:red'>终止循环，循环体结束 </span><br>");
+
+    for(i=0;i<5;i++){
+        if(i==3)
+            break;
+        p(i);
+    }
+
+</script>
+</body>
+</html>

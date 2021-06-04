@@ -1,0 +1,49 @@
+
+
+html {
+    font-size: 10px;
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #00539F;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1,h2{
+    margin: 10px;
+    border: 40px;
+    padding: 20px;
+}
+h2{
+    color: antiquewhite  ;
+    background: green;
+    text-align: center;
+}
+h1 {
+    color: antiquewhite;
+    background: green;
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    border: 1px solid;
+}
+p,li {
+
+    color: red;
+    font-size: 16px;
+    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+ol{
+    text-align: left;
+}
+

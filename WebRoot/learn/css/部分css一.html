@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/2 17:20
+    * @description: 部分css内容的使用
+    -->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 内部使用css 写在head标签内-->
+    <style>
+        body {
+            color: black;
+            text-align: center;
+            font-family: "微软雅黑 Light";
+            font-size: larger;
+            background-color: white;
+            background-image: url("web.png");
+
+            /* 水平方向重复 */
+            background-repeat: no-repeat;
+            /* 图片是滚动的还是固定的 */
+            background-attachment: fixed;
+            /* 规定背景图像的大小 */
+            background-size: 20% 20%;
+            /* 指定图片位置 */
+            background-position: right top;
+            /* 指定图像位置 */
+            /*background-position: 30% 20%;*/
+            /* 何处放置背景图像 */
+            background-origin: content-box;
+
+        }
+
+        /*只想表格周围有边框 给table指定border属性*/
+        table {
+            width: 100%;
+            border-radius: 2px;
+            border-width: thin;
+            border-color: red orange yellow green;
+            border-style: solid dashed;
+
+        }
+
+        table, td, th, tr {
+            text-align: center;
+            border: 1px solid black;
+            /* 折叠为单一边框 */
+            border-collapse: collapse;
+        }
+
+        /* 设置表格斑马线 */
+        /* 屏幕太小无法显示全部内容时 使用滚动式表格：
+        <div style="overflow-x:auto;"></div> 用这样的
+        div标签将表格包起来 */
+        tr:nth-child(even) {
+            background-color: orange;
+        }
+
+        /*给标题加阴影*/
+        h1 {
+            /* 阴影颜色 */
+            text-shadow: white;
+            text-shadow: 4px 4px;
+            /* 加边框 */
+            border: 2px solid black;
+            /* 边框宽度 */
+            border-width: 5px;
+            /* 边框设置四个值 上右下左*/
+            border-width: 1px 2px 3px 4px;
+            /* 边框颜色 可以设置四个属性值 */
+            border-color: pink lightskyblue yellow orange;
+        }
+
+        /* 边框的四边颜色 样式 大小粗细 圆角等*/
+        p.biankuang {
+            /* 四边框的类型 点 实 虚 双 线*/
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dashed;
+            border-left-style: double;
+            /* 四边框颜色和 宽度 */
+            border-color: red orange yellow green;
+            border-width: 2px 3px 4px 5px;
+            /* 设置圆角边框 */
+            border-radius: 12px;
+        }
+
+        /* 加边框 */
+        /* 点状 */
+        p.dotted {
+            border-style: dotted;
+        }
+
+        /* 虚线 */
+        p.dashed {
+            border-style: dashed;
+        }
+
+        /* 实线 */
+        p.solid {
+            border-style: solid;
+        }
+
+        /* 双线 */
+        p.double {
+            border-style: double;
+        }
+
+        /* 凹槽 */
+        p.groove {
+            border-style: groove;
+        }
+
+        /* 垄状 */
+        p.ridge {
+            border-style: ridge;
+        }
+
+        /* 3d insert */
+        p.inset {
+            border-style: inset;
+        }
+
+        /* 3d outset */
+        p.outset {
+            border-style: outset;
+        }
+
+        /* 无边 */
+        p.none {
+            border-style: none;
+        }
+
+        /* 隐藏 */
+        p.hidden {
+            border-style: hidden;
+        }
+
+        /* 建四边各不同的边框样式 */
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+
+        /* margin外边距设置边框的上下距离 边框的样式 颜色 宽度 */
+        p.边距 {
+            margin: 70px;
+            border-style: solid dashed;
+            border-color: red orange yellow green;
+            border-width: 2px 4px;
+        }
+        div {
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+            background-color: lightblue;
+            /* 设置auto 以上值无效*/
+            margin: auto;
+        }
+
+        /* 外边距合并 20 与 10 合并 边距为20而非30*/
+        /** {*/
+        /*margin:0;*/
+        /*padding:0;*/
+        /*border:0;*/
+        /*}*/
+        #d1 {
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: red;
+        }
+        #d2 {
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background-color: blue;
+        }
+
+        /* padding内边距设置 */
+        p.边距 {
+            padding: 20px 50px;
+        }
+
+        /* 轮廓 */
+        p.ex1 {
+            margin: 30px 15px;
+            background: yellow;
+            border: 1px solid black;
+            outline: 2px solid black;
+            outline-width: thin;
+            /* 轮廓偏移外围加一层框框 元素的轮廓与边框之间添加空间。
+            元素及其轮廓之间的空间是透明的。 */
+            outline-offset: 5px;
+        }
+
+        p.ex2 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: medium;
+        }
+
+        p.ex3 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: thick;
+        }
+
+        p.ex4 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: 4px;
+        }
+
+        /* 链接删除下划线 顶部加直线 加删除线 */
+        a {
+            text-decoration: none;
+            /* 顶部加入直线 */
+            text-decoration: overline;
+            /* 加入删除线 */
+            /*text-decoration: line-through;*/
+        }
+
+        /* 文本转换 大小写转换 首字母大写 */
+        p.uppercase {
+            /* 小写转大写 */
+            text-transform: uppercase;
+        }
+
+        p.lowercase {
+            /* 大写转小写 */
+            text-transform: lowercase;
+        }
+
+        p.capitalize {
+            /* 首字母大写 */
+            text-transform: capitalize;
+        }
+
+        /* 文本第一行缩进 */
+        p {
+            text-indent: 50px;
+        }
+
+        /* 行高 */
+        p.small {
+            line-height: 0.7;
+        }
+        p.big {
+            line-height: 1.8;
+        }
+
+        /* 链接样式 点击过程中 点击前后 样式 颜色变化等等*/
+        /* unvisited link */
+        a:link {
+            color: red;
+        }
+
+        /* visited link */
+        a:visited {
+            color: green;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+
+        /* 链接按钮 */
+        a:link, a:visited {
+            background-color: lightskyblue;
+            color: pink;
+            padding: 15px 25px;
+            margin: 30px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active {
+            background-color: red;
+        }
+
+        /* 面板样式 */
+        #panel, .flip {
+            font-size: larger;
+            padding: 10px;
+            text-align: center;
+            background-color: limegreen;
+            color: white;
+            margin: auto;
+        }
+        /* 面板隐藏 */
+        #panel {
+            display: none;
+        }
+        /* 面板选择按钮 */
+        button {
+            text-align: center;
+            border: 1px solid black;
+            margin: auto;
+            padding: 5px;
+            background-color: limegreen;
+            outline-color: limegreen;
+        }
+
+    </style>
+</head>
+
+<body>
+<h1>我是一级标题</h1>
+
+<!-- 结合css script html 编写的展开 隐藏面板 -->
+<script>
+    function myFunction(sw) {
+
+        if (sw == 0) {
+            document.getElementById("panel").style.display = "block";
+        } else {
+            document.getElementById("panel").style.display = "none";
+        }
+
+    }
+
+</script>
+<button type="button" onclick="myFunction(0)">展开</button>
+<button type="button" onclick="myFunction(1)">隐藏</button>
+<p class="flip" onclick="myFunction()">点击这里显示面板</p>
+<div id="panel">
+    <p>该面板包含一个 div 元素，默认情况下该元素是隐藏的（display: none）。</p>
+    <p>它使用 CSS 进行样式设置，我们使用 JavaScript 来显示它（display: block）。</p>
+    <p>工作原理：请注意，带有 class="flip" 的 p 元素有 onclick 属性。当用户单击 p 元素时，将执行一个名为 myFunction() 的函数，该函数将 id="panel" 的 div 样式从
+        display:none（隐藏）更改为 display:block（可见）。</p>
+    <p>您将在我们的 JavaScript 教程中学到有关 JavaScript 的更多知识。</p>
+</div>
+
+<!-- 行高 间距等 -->
+<p>
+    这是有标准行高的段落<br>
+    大多数浏览器中的默认行高大概是 110% 到 120%。<br>
+</p>
+<p class="small">
+    这是行高更小的段落。<br>
+    这是行高更小的段落。<br>
+</p>
+<p class="big">
+    这是行高更大的段落。<br>
+    这是行高更大的段落。<br>
+</p>
+
+<!-- 边框设置 -->
+<p class="biankuang">我是一个段落</p>
+
+<!-- 内外边距设置 -->
+<p class="边距"><b>我是内外边距设置</b></p>
+<div>这个 div 元素的上外边距为 100 像素，右外边距是 150 像素，
+    下外边距是 100 像素，左外边距是 80 像素。
+</div>
+
+<!-- 保留空格换行的段落 -->
+<p>
+<pre>我是 保留 空格
+和 换行的
+段落</pre>
+</p>
+
+<h1>border-style 属性</h1>
+
+<p>此属性规定要显示的边框类型：</p>
+
+<p class="dotted">点状边框。</p>
+<p class="dashed">虚线边框。</p>
+<p class="solid">实线边框。</p>
+<p class="double">双线边框。</p>
+<p class="groove">凹槽边框。</p>
+<p class="ridge">垄状边框。</p>
+<p class="inset">3D inset 边框。</p>
+<p class="outset">3D outset 边框。</p>
+<p class="none">无边框。</p>
+<p class="hidden">隐藏边框。</p>
+<p class="mix">混合边框。</p>
+
+<!-- 内联框架 在本html中展示其他html -->
+<iframe class="neiliankuangjia" src="https://www.w3school.com.cn/index.html" frameborder="0"> 我是一个外联框架</iframe>
+<br>
+<br>
+
+<!-- 单选框 action 指向其他网页 script动态加载 -->
+<script>
+    function f() {
+        alert("商品暂无！")
+    }
+
+    //    重新动态加载
+    window.onload = function () {
+        var dge = document.getElementById("sp");
+        dge.onchange = function () {
+            alert("已加入购物车")
+        }
+
+    }
+</script>
+<form action="https://www.baidu.com/" onchange="f()" class="danxuankuang">
+    <input type="text" list="sp"><br><br>
+    <select name="商品" id="sp" onchange="f()">
+        <option value="牛奶">牛奶</option>
+        <option value="面包">面包</option>
+        <option value="啤酒">啤酒</option>
+        <option value="炸鸡">炸鸡</option>
+        <input type="submit" value="submit">
+    </select>
+</form>
+<br>
+
+<!-- 表格设置 -->
+<div class="biaoge">
+    <table>
+        这是表格：
+        <tr>
+            <th>name</th>
+            <th>sex</th>
+            <th>hobby</th>
+        </tr>
+
+        <tr>
+            <td>岩心</td>
+            <td>男</td>
+            <td>吃</td>
+        </tr>
+
+        <tr>
+            <td>欣妍</td>
+            <td>女</td>
+            <td>穿</td>
+        </tr>
+    </table>
+</div>
+
+<!-- 合并两个容器的边距 -->
+<div id="d1">
+</div>
+<div id="d2">
+</div>
+<p>请注意，两个 div 之间的外边距是 20px，
+    而不是 30px（20px + 10px）。</p>
+
+<!-- 轮廓 -->
+<h1>outline-width 属性</h1>
+
+<p class="ex1">细的轮廓。</p>
+<p class="ex2">中等的轮廓。</p>
+<p class="ex3">粗的轮廓。</p>
+<p class="ex4">4 像素的粗轮廓。</p>
+
+<!-- 没有下划线 删除线 设置头顶线-->
+<a href="https://www.w3school.com.cn" target="_blank">W3School.com.cn没有下划线</a>
+<p class="uppercase">This is some text.</p>
+<p class="lowercase">This is some text.</p>
+<p class="capitalize">This is some text.</p>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/liziwei.css" rel="stylesheet">
+    <title>李梓玮的简历</title>
+</head>
+
+<h1 style="text-align: center">李梓玮</h1>
+<img src="images/李梓玮.jpg" height="110" width="85"   >
+<blockquote><pre style="text-align: center">性别：男      电话：13283835762      邮箱：a507109228@gmail.com      </pre></blockquote>
+<h2>求职意向<hr/></h2>
+Java后端开发（偏网站开发维护）
+<h2>教育背景<hr/></h2>
+<pre>■2018.09 - 2022.07      郑州财经学院      软件工程      工学学士</pre>
+<h2>工作经历<hr/></h2>
+<pre>■2019.07 - 2019.08      美团外卖       搜索引擎优化方向</pre>
+<h2>项目经历<hr/></h2>
+<p><pre>
+                     <b >Chat Bot Opinion 一致性模块搭建</b>
+项目描述:该模块职责为针对不同的bot 可设置不同的属性，使 bot 在聊天过程中具有与设置一致的 responsc。
+         如;为bot 设置了对美食 domain 的某个 entity 的态度为 positive。
+个人职责:
+    线上版本的模型和系统搭建:1.模型部分基于Bert模型训练了 2个二分类模型，分别是 opinion分类模型和 sentiment 回归模型,用于
+    判断一个 utterance 是否具有 opinion 和它的 sentiment 分数。2.挖据相似 entity:根据头条的新闻标题数据和本团队的知识图谱，
+    基于Glove 词向量的思想挖掘出相似entity。3.系统搭建:完成qucry 端的 trigger 机制和 answer 端的 rerank 机制。基于GPT2的
+    生成模型:基于ConvA12数据构造相应的训练数据，将数据集中的人设描述句和 query 作为训练数据的context 部分，数据集的 answer
+    作为待生成部分进行训练。
+
+可能的改进:(1)尝试自然语言推断模型的效果，难点在于数据的构造(2)完善知识图谱的 Tripic
+
+                     <b> Bot Style Transfer 模块搭建</b>
+项目描述:小冰的回复是基于全网爬取的对话数据训练而成，所以它的回复风格包含了各个语言风格的人群(如活泼、严肃、礼貌等)。
+         本模块负责分离出不同的风格，使不同的 bot 可以配置不同的回复风格。
+评价指标:已完成17种风格。其中15个风格的 Precision 在 3797%之间。2 个风格的 Precision 在 10-20%之间。
+
+个人职责:
+    Ofine 实验:1.包含基于生成和判别的模型。生成模型主要尝试了基于 Delcte, Retrieve,Generatc思想的生成模型2.基于 Transformer
+    的机器翻译模型:判别模型使用基于 Ber 的分类模型。
+    Online Pipeline:1.提取index 中所有 answer 的 Ber second0-last hidden vector， 建立 kd-tree。2.人工编写少量该风格的语料，
+    并提取相应的hidden vector，检索回上百句类似风格的index answer进行人工 review。3.拿到review 后的句子后扩展至万级别
+    的风格句，训练多个二分类模型后为 index中的每个 answer 进行打分。4.完成线上 answer 筛选策略并实现 bot 的动态配置。
+
+可能的改进:(1)改进简单的Q-QMatch召回机制，增加 Recall(2)以 Style 作为信号引导 GPT2 生成模型。
+
+                     <b> Xiaoice Framework 的 Chracter 商业化项目落地</b>
+项目推述:小冰走向商业化的关键一个环节就是角色化技术，如opinion一致性、styletransfer等。
+个人职责:
+    1.完成角色化技术落地，如:基于 Xiaoice Framework 搭建了不同性格/人设的 5 人群聊 bot
+    2.完成基于WebSocket的流式SR接口、并完善部分前端OpenAP1接口的功能(.Ne Core Framework)
+</pre></p>
+<h2>获得荣誉<hr/></h2>
+大学计算机二级
+英语四级
+<h2>专业技能<hr/></h2>
+<p><pre>■熟悉 Vucjs 前端框架和 Html、Css 等前端技术
+■熟悉 C#、Java、 Python 编程
+■了解C/C++ 熟悉基本数据结构和算法、机器学习、深度学习
+■了解 Docker、Docker-Compose 等容器及编排技术算法及 TensorFlow、Pytorch 深度学习框架</pre></p>
+</body>
+</html>

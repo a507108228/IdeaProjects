@@ -1,0 +1,18 @@
+h1,h2{
+    text-align: center;
+
+}
+body{
+    width: 600px;
+    margin: auto;
+    background-color: orange;
+    padding: 0px 100px 600px 100px;
+    border: 10px solid white;
+}
+html{
+    font-size: 20px;
+    background: bisque;
+}
+p{
+    border: 1px solid ;
+}

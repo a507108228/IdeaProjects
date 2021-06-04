@@ -1,0 +1,82 @@
+<!DOCTYPE >
+<html> 
+<head>
+    <!--
+    @author: lzw
+    @time: 2021/6/4 15:05
+    @description: 计算出生日期
+    -->
+        
+<meta charset="utf-8">
+        <title>计算年龄</title>
+        
+<script>
+    function add_year() {
+        var select_year = document.getElementById('year');
+        select_year.options.length = 0;
+        select_year.options.add(new Option('请选择出生年', 0));
+
+        for (var i = 1900; i <= new Date().getFullYear(); i++)
+            select_year.options.add(new Option(i, i - 1899));
+    }
+
+    function add_month() {
+        var select_month = document.getElementById('month');
+        select_month.options.length = 0;
+        select_month.options.add(new Option('请选择出生月', 0));
+        for (var i = 1; i <= 12; i++)
+            select_month.options.add(new Option(i, i));
+    }
+
+    function add_day() {
+        var select_day = document.getElementById('day');
+        select_day.options.length = 0;
+        select_day.options.add(new Option('请选择出生日', 0));
+        for (var i = 1; i <= 31; i++)
+            select_day.options.add(new Option(i, i));
+    }
+
+    window.onload = function () {
+        add_year();
+        add_month();
+        add_day();
+    }   //初始化加载js函数
+    function compute() {
+        var year = Number(document.getElementById('year').value) + 1899;    //获取选中项的索引
+        old = new Date().getFullYear() - year;
+        document.getElementById('age').textContent = old;
+    }
+</script>
+         
+        
+<style>
+    p {
+        margin: 2px;
+    }
+
+    select {
+        width: 60px;
+        background-color: ghostwhite;
+    }
+
+</style>  
+</head>  
+ 
+<body>
+<p><strong>请输入出生 年 月 日</strong></p>
+        
+<div>
+<strong>年份</strong> <select id='year'></select>
+<strong>月份</strong> <select id='month'></select>
+<strong>日</strong>  <select id='day'></select>        
+</div>
+
+<br/>
+
+<input type='button' id='compute' onclick="compute()" value="计算年龄"/><br/>
+<strong>今年</strong>
+<span id='age'>&nbsp;</span>
+<strong>岁</strong>
+    
+</body>
+</html>

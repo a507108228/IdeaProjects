@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/1 19:58
+    * @description: 有关JavaScript的学习
+    -->
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/js01.js"></script>
+    <title>js</title>
+</head>
+
+<body>
+    账号：<input type="text" onblur="onblurFun();"name="lzw">
+    密码：<input class="pas" type="password" value="lzw">
+</body>
+
+<script>
+    function f() {
+        alert("商品已售空请选择其他商品")
+        }
+
+    window.onload = function () {
+        var se = document.getElementById(12);
+        se.onchange = function () {
+            alert("商品已经选购")
+        }
+    }
+
+</script>
+<body>
+    请选择商品：
+    <select name="商品" id="12" onchange="f();">
+        <option>牛奶</option>
+        <option>面包</option>
+        <option>香肠</option>
+        <option>火腿</option>
+    </select>
+</body>
+
+<script>
+    function onsubmitFun() {
+        alert("illegal");
+        return false;
+    }
+    
+    window.onload = function () {
+        var v = document.getElementById('dong');
+        v.onsubmit = function () {
+            alert("shadiao")
+
+            return true;
+        }
+    }
+</script>
+<body>
+<form id="dong" action="js学习.html" method="get" onsubmit="return onsubmitFun();" >
+    <input type="submit" value="静/动态注册页面">
+
+</form>
+
+</body>
+</html>
