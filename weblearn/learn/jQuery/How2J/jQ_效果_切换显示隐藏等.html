@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 18:58
+    * @description:
+    show() hide() toggle() 显示 隐藏 切换
+    slideUp() slideDown() slideToggle() 向上、下滑动 滑动切换
+    fadeIn() fadeOut() fadeToggle() fadeTo() 淡入 淡出 淡入淡出切换 指定淡入程度
+    animate 自定义动画效果
+    callback 回调函数
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+
+    <style>
+        button {
+            display: block;
+        }
+
+        div {
+            border: solid 1px gray;
+            background-color: pink;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<!-- 向上向下滑动 以及切换 -->
+<script>
+    $(function () {
+        $("#slide1").click(function () {
+            $("#slideDiv").slideUp(200);
+        });
+        $("#slide2").click(function () {
+            $("#slideDiv").slideDown(200);
+        });
+        $("#slide3").click(function () {
+            $("#slideDiv").slideToggle(2000);
+        });
+
+        //    淡入淡出
+        $("#fade1").click(function () {
+            $("#slideDiv").fadeIn();
+        });
+
+        $("#fade2").click(function () {
+            $("#slideDiv").fadeOut();
+        });
+
+        $("#fade3").click(function () {
+            $("#slideDiv").fadeToggle();
+        });
+    });
+</script>
+<button id="slide1">向上滑动</button>
+<button id="slide2">向下滑动</button>
+<button id="slide3">滑动切换</button>
+<button id="fade1">淡入</button>
+<button id="fade2">淡出</button>
+<button id="fade3">切换</button>
+
+<div id="slideDiv">
+    上下滑动，切换滑动
+</div>
+
+</body>
+</html>

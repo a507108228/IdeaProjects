@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 12:36
+    * @description:
+    attr 获取
+    attr(属性，值）修改
+    removeAttr 删除
+
+                    prop attr  区别
+                    与prop一样attr也可以用来获取与设置元素的属性。
+    区别在于，对于自定义属性和选中属性的处理。
+    选中属性指的是 checked,selected 这2种属性
+    1. 对于自定义属性 attr能够获取，prop不能获取
+    2. 对于选中属性attr 只能获取初始值， 无论是否变化
+        prop 能够访问变化后的值，并且以true|false的布尔型返回。
+        所以在访问表单对象属性的时候，应该采用prop而非attr
+
+
+    现阶段都是给一个按钮绑定事件，要修改的内容的id值
+    调用相关方法
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+
+</head>
+<body>
+<h2 style="text-align: center"> attr 获取属性 居中 value等属性</h2>
+<script>
+    $(function(){
+        $("#b1").click(function(){
+            alert("align属性是:" + $("#h").attr("align") );
+        });
+        $("#b2").click(function(){
+            alert("game属性是:" + $("#h").attr("game") );
+        });
+    });
+
+</script>
+
+<button id="b1">获取align属性</button>
+<button id="b2">获取自定义属性 game</button>
+<br>
+<br>
+<h1 id="h" align="center" game="LOL">居中标题</h1>
+
+
+<br>
+<br>
+<h2 style="text-align: center"> attr修改属性</h2>
+
+<script>
+$(function(){
+    $("#b3").click(function(){
+        $("#h1").attr("align","right") ;
+        $("#h1").attr("style","white");
+    });
+});
+
+</script>
+
+<button id="b3">修改align属性为right</button>
+<br>
+<br>
+<h1 id="h1" align="center" style="background-color: black" >居中标题</h1>
+
+
+<br>
+<br>
+<h2 style="text-align: center"> removeAttr(attr)删除属性</h2>
+<script>
+    $(function(){
+        $("#b4").click(function(){
+            $("#h3").removeAttr("align");
+        });
+    });
+
+</script>
+
+<button id="b4">删除align属性</button>
+
+<br>
+<br>
+<h1 id="h3" align="center" game="LOL">居中标题</h1>
+
+
+<br>
+<br>
+<h2 style="text-align: center"> prop与attr区别</h2>
+<script>
+    $(function(){
+        $("#ba1").click(function(){
+            alert("game属性是:" + $("#c").attr("game") );
+        });
+
+        $("#ba2").click(function(){
+            alert("game属性是:" + $("#c").prop("game") );
+        });
+
+        $("#ba3").click(function(){
+            alert("checked属性是:" + $("#c").attr("checked") );
+        });
+
+        $("#ba4").click(function(){
+            alert("checked属性是:" + $("#c").prop("checked") );
+        });
+
+    });
+
+</script>
+
+<style>
+    button{
+        display:block;
+    }
+</style>
+
+<button id="ba1">通过attr获取自定义属性 game</button>
+<button id="ba2">通过prop获取自定义属性 game</button>
+<button id="ba3">通过attr获取 checked属性</button>
+<button id="ba4">通过prop获取 checked属性</button>
+
+<br>
+<br>
+
+<input type="checkbox"  id="c" game="LOL" checked="checked"> 选中的复选框
+</body>
+</html>

@@ -11,11 +11,6 @@ import java.util.HashMap;
  * 键盘录入 统计字符出现的次数
  */
 
-class Test{
-
-
-}
-
 public class TestSystemIn{
     public static void main(String[] args) throws IOException{
 

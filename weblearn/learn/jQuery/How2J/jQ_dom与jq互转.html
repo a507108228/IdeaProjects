@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 20:52
+    * @description:
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<!-- jQuery转dom -->
+<div>
+    <script>
+        $(function(){
+            $("#b1").click(function(){
+                var div= $("#d");
+                var d = div[0];
+                var s ="JQuery对象是 " + div;
+                s +="\n对应的DOM对象是 " + d
+                alert(s);
+            });
+        });
+
+    </script>
+    <button id="b1">JQuery对象div转为DOM对象d</button>
+    <br>
+    <br>
+
+    <style>
+        .pink{
+            background-color:pink;
+        }
+    </style>
+
+    <div id="d">
+        Hello JQuery
+    </div>
+</div>
+
+<br>
+<!-- dom转jQuery -->
+<div>
+    <script>
+        $(function(){
+            $("#b2").click(function(){
+                var div= document.getElementById("d1");
+                var d = $(div);
+                var s ="DOM对象是 " + div;
+                s +="\n对应的JQuery对象是 " + d
+                alert(s);
+            });
+        });
+
+    </script>
+    <button id="b2">DOM对象div转为JQuery对象d</button>
+    <br>
+    <br>
+
+    <style>
+        .pink{
+            background-color:pink;
+        }
+    </style>
+
+    <div id="d1">
+        Hello JQuery
+    </div>
+</div>
+</body>
+</html>

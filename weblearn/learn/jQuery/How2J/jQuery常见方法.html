@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/5 15:02
+    * @description: 常用方法
+    val()取值
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+    <script>
+        $(function () {
+           $("#but1").click(function () {
+               alert($("#in1").val());
+           }) ;
+        });
+
+        //    保留了pre标签
+        $(function () {
+            $("#but1").click(function () {
+                alert($("#div1").html());
+            }) ;
+        });
+
+        //    没有保留pre标签
+        $(function () {
+            $("#but1").click(function () {
+                alert($("#div1").text());
+            }) ;
+        });
+
+
+    </script>
+</head>
+<body>
+
+<button id="but1">取值</button>
+<input type="text" id="in1" value="默认值">
+<div id="div1">
+    <pre>
+    val	        取值
+    html	获取元素内容,如果有子元素，保留标签
+    text	获取元素内容,如果有子元素，不包含子元素标签</pre></div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/5 15:12
+    * @description: 给指定id的内容加入css样式
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+
+    <style>
+        .pink{
+            border: 1px solid black;
+            background-color: pink;
+        }
+    </style>
+    <script>
+        //    加入背景色
+        $(function () {
+            $("#b2").click(function () {
+                $("#div2").addClass("pink")
+            })
+        })
+
+        //    删除背景色
+        $(function () {
+            $("#bd2").click(function () {
+                $("#div2").removeClass("pink")
+            })
+        })
+
+    //    切换css样式
+        $(function () {
+            $("#change").click(function () {
+                $("#div2").toggleClass("pink")
+            })
+        })
+
+    //    设置多、单样式
+        $(function () {
+            $("#shezhione").click(function () {
+                $("#div2").css("backgroundColor","red")
+            })
+        })
+
+        $(function () {
+            $("#shezhimore").click(function () {
+                $("#div2").css({"backgroundColor":"yellow"
+                    ,"fontFamily":"微软雅黑"
+                    ,"border":"1px solid red"
+                    , "color":"blue"})
+            })
+        })
+    </script>
+
+
+</head>
+<body>
+
+<button id="b2">增加背景色</button>
+<button id="bd2">删除背景色</button>
+<button id="change">切换背景色</button>
+<button id="shezhione">设置单一样式</button>
+<button id="shezhimore">设置多种样式</button>
+
+<div id="div2">
+    <pre>
+addClass	增加class
+removeClass	删除class
+toggleClass	切换class
+css	        css函数
+toggleClass() 切换一个样式中的class
+这里的切换，指得是：
+如果存在就删除
+如果不存在，就添加
+    </pre>
+</div>
+</body>
+</html>

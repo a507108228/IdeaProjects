@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/5 19:38
+    * @description: 上面是表单对象 这个是
+    表单对象属性
+    -->
+    <script src="../script/jquery-1.7.2.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px dashed black;
+            border-collapse: collapse;
+            table-layout: fixed;
+            width: 80%;
+        }
+
+        table td{
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        /* 表格斑马状 */
+        tr:nth-child(even) {
+            background-color: orange;
+        }
+
+        tr{
+            text-align: center;
+        }
+
+        /* 顶部加入直线 */
+        /*table{*/
+            /*text-decoration: overline;*/
+        /*}*/
+
+        div button{
+            display: block;
+        }
+
+        .border{
+            border: 1px blue solid;
+
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    //    $("td[rowspan!=13] 后面有一个空格，表示层级选择器，如果没有就会出错
+    //      toggle(500) 表示在显示与隐藏之间来回切换，生效时间是500毫秒
+    //     上述的tips  我下面就错了浪费了将近1个小时
+    $(function () {
+        $(".b").click(function () {
+            var value = $(this).val();
+            $("td[rowspan!=13] "+value).toggle(500);
+        });
+
+        $(".b2").click(function () {
+            var value = $(this).val();
+            var options = $("td[rowspan!=13] "+value);
+            alert("选择了"+options.length+"条数据");
+        });
+
+    });
+</script>
+
+
+<table>
+    <tr>
+        <td rowspan="13" valign="top" width="120">
+        <div>
+            <button value=":enabled" class="b">切换：enabled</button>
+            <button value=":disabled" class="b">切换：disabled</button>
+            <button value=":checked" class="b">切换：checked</button>
+            <button value=":selected" class="b2">：selected的数量</button>
+        </div>
+        </td>
+        <td width="120">说明</td>
+        <td width="120">表单对象属性</td>
+        <td width="100px">示例</td>
+    </tr>
+    <tr>
+        <td>enabled按钮：</td>
+        <td>:enabled</td>
+        <td><input type="button" enabled="enabled" value="enabled的按钮"></td>
+    </tr>
+    <tr>
+        <td>disabled</td>
+        <td>:disabled</td>
+        <td><input type="button" disabled="disabled" value="disabled的按钮"></td>
+    </tr>
+    <tr>
+        <td>选中的复选框</td>
+        <td>:checked</td>
+        <td>
+            <input type="radio" checked="checked"><br>
+            <input type="radio"><br>
+            <input type="checkbox"><br>
+            <input type="checkbox" checked="checked"><br>
+        </td>
+    </tr>
+    <tr>
+        <td>选中的下拉列表</td>
+        <td>:selected</td>
+        <td>
+            <select size="3" multiple="multiple">
+                <option selected="selected">关羽</option>
+                <option>张飞</option>
+                <option selected="selected">赵云</option>
+            </select>
+        </td>
+    </tr>
+
+</table>
+
+<script>
+    $(function () {
+        $("#b1").click(function () {
+            $(this).hide();
+        });
+    });
+</script>
+<button id="b1" >点击隐藏</button>
+
+</body>
+</html>

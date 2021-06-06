@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 20:25
+    * @description:
+$.ajax()    提交AJAX请求
+$.get()	    使用get方式提交ajax
+$.post	    使用post方式提交ajax
+load()	    最简单的调用ajax的方式
+serialize()	格式化form下的输入数据
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<!-- $.ajax()采集参数提交ajax -->
+<div>
+    <div id="checkResult"></div>
+    输入账号：<input type="text" id="name">
+
+    <script>
+        // $(function () {
+        //     $("#name").keyup(function () {
+        //         var page = "jQ_选择器.html";
+        //         var value = $(this).val();
+        //         $.ajax({
+        //             url:page,
+        //             data:{"name":value},
+        //             success:function (result) {
+        //                 $("#checkResult").html(result);
+        //             }
+        //
+        //         });
+        //     });
+        // });
+
+    //    load
+        $(function(){
+            $("#name").keyup(function(){
+                var value = $(this).val();
+                var page = "jQ_选择器.html?name="+value;
+                $("#checkResult").load(page);
+            });
+        });
+    </script>
+</div>
+
+<div>
+
+    <div id="checkResult1"></div>
+    <div id="data"></div>
+    <a href="https://how2j.cn/study/checkName.jsp">https://how2j.cn/study/checkName.jsp</a>
+
+    <form id="form">
+        输入账号 :<input id="name1" type="text" name="name1"> <br>
+        输入年龄 :<input id="age" type="text" name="age"> <br>
+        输入手机号码 :<input id="mobile" type="text" name="mobile"> <br>
+
+    </form>
+
+    <script>
+        $(function(){
+            $("input").keyup(function(){
+                var data = $("#form").serialize();
+                var url = "https://how2j.cn/study/checkName.jsp";
+                var link = url+"?"+ data;
+                $("a").html(link);
+                $("a").attr("href",link);
+            });
+        });
+
+    </script>
+</div>
+
+</body>
+</html>

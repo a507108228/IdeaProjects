@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 20:44
+    * @description:
+    $.each()	    遍历
+    $.unique()	    去除重复
+    $.inArray()	    是否存在$.inArray
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <script>
+        var a = new Array(1, 2, 3);
+        $.each(a, function (i, n) {
+            document.write("元素[" + i + "] : " + n + "<br>");
+        })
+        document.close();
+
+    </script>
+</div>
+<br>
+<div>
+    <script>
+        var a = new Array(5, 2, 4, 2, 3, 3, 1, 4, 2, 5);
+        a.sort();
+        $.unique(a);
+        $.each(a, function (i, n) {
+            document.write("元素[" + i + "] : " + n + "<br>");
+        })
+        document.close();
+
+    </script>
+</div>
+<br>
+<div>
+
+    <script>
+        var a = new Array(1, 2, 3, 4, 5, 6, 7, 8);
+        document.write($.inArray(9, a));
+        document.close();
+
+    </script>
+</div>
+<br>
+<!-- 字符串 trim（）去掉首位空格 -->
+<div>
+    <script>
+
+    document.write($.trim(" Hello JQuery    "));
+    document.close();
+
+    </script>
+</div>
+<br>
+<!-- 字符串转json对象-->
+<div>
+
+    <script>
+
+        var s1 = "{\"name\":\"盖伦\"";
+        var s2 = ",\"hp\":616}";
+        var s3 = s1+s2;
+
+        document.write("这是一个JSON格式的字符串:" + s3);
+        document.write("<br>");
+        var gareen = $.parseJSON(s3);
+
+        document.write("这是一个JSON对象: " + gareen);
+
+    </script>
+</div>
+</body>
+</html>

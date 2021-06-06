@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/5 16:50
+    * @description:
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+
+    <style>
+        .pink {
+            background-color: pink;
+        }
+
+        .green{
+            background-color:green;
+        }
+        .border{
+            border: 1px blue solid;
+
+        }
+
+        button{
+            margin-top:10px;
+            display:block;
+        }
+
+        div{
+            margin:10px;
+        }
+    </style>
+
+
+    <script>
+        //    可见不可见
+        $(function () {
+            $("#bb1").click(function () {
+                $("div:visible").hide();
+            });
+            $("#bb2").click(function () {
+                $("div:hidden").show();
+            });
+        });
+
+        //    指定属性值进行操作
+
+        $(function () {
+            $("#b1").click(function () {
+                $("div[id]").toggleClass("border");
+            });
+            $("#b2").click(function () {
+                $("div[id='pink']").toggleClass("border");
+            });
+            $("#b3").click(function () {
+                $("div[id!='pink']").toggleClass("border");
+            });
+            $("#b4").click(function () {
+                $("div[id^='p']").toggleClass("border");
+            });
+            $("#b5").click(function () {
+                $("div[id$='k']").toggleClass("border");
+            });
+            $("#b6").click(function () {
+                $("div[id*='ee']").toggleClass("border");
+            });
+        })
+    </script>
+
+</head>
+<body>
+
+<button id="bb1">隐藏可见的</button>
+<button id="bb2">显示不可见的</button>
+
+<button id="b1">给有id属性的div切换边框</button>
+<button id="b2">给id=pink的div切换边框</button>
+<button id="b3">给有id!=pink属性的div切换边框</button>
+<button id="b4">给有id以p开头的div切换边框</button>
+<button id="b5">给有id以k结尾的div切换边框</button>
+<button id="b6">给有id包含ee的div切换边框</button>
+
+
+<div>
+    <span>Hello JQuery 1</span>
+</div>
+
+<div>
+    <span>Hello JQuery 2</span>
+</div>
+
+<div>
+    <span>Hello JQuery 3</span>
+</div>
+
+<div>
+    <span>Hello JQuery 4</span>
+</div>
+
+</div>
+
+<div>
+    <span>Hello JQuery 5</span>
+</div>
+
+<div>
+    <span>Hello JQuery 6</span>
+</div>
+
+<div id="pink">
+    id=pink的div
+</div>
+
+<div id="green">
+    id=green的div
+</div>
+
+<div >
+    没有id的div
+</div>
+</body>
+</html>

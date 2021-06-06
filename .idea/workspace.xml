@@ -9,25 +9,132 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="Idea 整合 Github&#10;                        新增加一个 测试">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5072b62d-ab6d-40e4-9a81-9333ffdabddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/01.HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/01.HelloWorld_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/02.$的本质.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/03.核心函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/04.DOM对象和jQuery对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/01.基本选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/02.层次选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/03.基本的过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/04.内容过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/05.可见性过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/06.属性过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/08.表单对象属性过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/09.元素筛选方法__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo03.DOM操作/2、dom属性操作___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo03.DOM操作/3、dom增删改___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo03.DOM操作/style/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo04.CSS样式操作/jqueryCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo04.CSS样式操作/jqueryCss___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo04.CSS样式操作/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/01.文档加载/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/01.文档加载/load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/01.文档加载/load___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/02.事件绑定/bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/02.事件绑定/bind____.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/02.事件绑定/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/03.事件移除/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/03.事件移除/style/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/03.事件移除/style/css.css.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/03.事件移除/unbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/03.事件移除/unbind___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/04.事件冒泡/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/04.事件冒泡/bubble___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/04.事件冒泡/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/05.事件对象/eventObj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/05.事件对象/eventObj__emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/05.事件对象/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo06.动画/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo06.动画/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo06.动画/动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/Demo06.动画/动画__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_AJAX_提交.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_dom与jq互转.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_事件_鼠标键盘控制事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_效果2_自定义与回调.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_效果_切换显示隐藏等.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQueryCSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQuery_属性获修删.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQuery常见方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ筛选器_第几和父子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ选择器_可见与属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ选择器_表单对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ选择器_表单对象属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习01 选择器练习01 隔行变色/ex_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习01 选择器练习01 隔行变色/ex_3_emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习01 选择器练习01 隔行变色/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习02 选择器练习02 全选全不选/ex-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习02 选择器练习02 全选全不选/ex-4__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习03 选择器练习03 表单选择器/ex_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习03 选择器练习03 表单选择器/ex_5_emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习03 选择器练习03 表单选择器/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习03 选择器练习03 表单选择器/表单选择器练习_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习03 选择器练习03 表单选择器/表单选择器练习_5__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习04 DOM操作01 selected/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习04 DOM操作01 selected/selected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习04 DOM操作01 selected/selected空白.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习04 DOM操作01 selected/从左到右，从右到左.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习04 DOM操作01 selected/从左到右，从右到左__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习05 DOM操作02 添加删除记录/ex-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习05 DOM操作02 添加删除记录/ex-5___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习05 DOM操作02 添加删除记录/styleB/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习05 DOM操作02 添加删除记录/添加删除记录-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习05 DOM操作02 添加删除记录/添加删除记录-5___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习06 CSS_动画 品牌展示/displaydcs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习06 CSS_动画 品牌展示/displaydcs__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习06 CSS_动画 品牌展示/displaydcs空白.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习06 CSS_动画 品牌展示/img/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习06 CSS_动画 品牌展示/img/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习06 CSS_动画 品牌展示/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习07 事件 图片跟随/img/big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习07 事件 图片跟随/img/small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习07 事件 图片跟随/imgFollow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习07 事件 图片跟随/imgFollow__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习07 事件 图片跟随/imgFollow空白.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习07 事件 图片跟随/script/jquery-1.7.2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/18软三_17李梓玮.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/18软三_17李梓玮.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/Study01.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/Study01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/Study02.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/Study02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/Study03.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/Study03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/Study04.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/Study04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/images/关于图片路径" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/images/关于图片路径" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/images/前端.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/images/前端.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/images/李梓玮.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/images/李梓玮.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/js/js01.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/js/js01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/js学习.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/js学习.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/styles/liziwei.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/styles/liziwei.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/styles/样式1.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/styles/样式1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/styles/样式2.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/styles/样式2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/styles/样式3.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/styles/样式3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/styles/样式4.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/styles/样式4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/myhtml5/重定向.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/html5/重定向.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/se2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/se2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wordcount.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wordcount.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wordcount1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wordcount1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/18软三_17李梓玮.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/18软三_17李梓玮.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/Study01.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/Study01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/Study02.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/Study02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/Study03.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/Study03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/Study04.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/Study04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/images/关于图片路径" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/images/关于图片路径" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/images/前端.png" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/images/前端.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/images/李梓玮.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/images/李梓玮.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/js/js01.js" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/js/js01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/js学习.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/js学习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/styles/liziwei.css" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/styles/liziwei.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/styles/样式1.css" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/styles/样式1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/styles/样式2.css" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/styles/样式2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/styles/样式3.css" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/styles/样式3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/styles/样式4.css" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/styles/样式4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/html5/重定向.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/html5/重定向.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/css/tupian.png" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/css3/tupian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/css/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/css3/web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/css/部分css一.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/css3/部分css一.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/css/部分css三.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/css3/部分css三.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/css/部分css二.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/css3/部分css二.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/js五.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/js五.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/js六.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/js六.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/一些js的小tips" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/一些js的小tips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/练习2.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/练习2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/练习3.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/练习3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/部分js一.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/部分js一.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/部分js三.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/部分js三.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/部分js二.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/部分js二.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblearn/learn/js/部分js四.html" beforeDir="false" afterPath="$PROJECT_DIR$/weblearn/learn/javascript/部分js四.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,9 +175,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_AJAX_提交.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="3" selection-start-line="14" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_数组.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebRoot/html5/Study02.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_dom与jq互转.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="980">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -106,30 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/Question2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/OthersClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/string/CompareTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/SetTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/CollectionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/TreeQustion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/Questions/Question01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/PropertiesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/prepareStatementCURD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/bean/Kkb_skill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/bean/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/CustomerForQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/collection/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/bean/Kkb_edu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/bean/exer/QuestionDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Exer1Test.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementCURD.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementUpadteTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalCURD.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementQueryTest.java" />
@@ -157,6 +262,30 @@
         <option value="$PROJECT_DIR$/WebRoot/myhtml5/js/js01.js" />
         <option value="$PROJECT_DIR$/WebRoot/myhtml5/styles/样式1.css" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java" />
+        <option value="$PROJECT_DIR$/weblearn/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lzw/io/TestSystemIn.java" />
+        <option value="$PROJECT_DIR$/weblearn/php新闻发布系统/添加页.html" />
+        <option value="$PROJECT_DIR$/weblearn/php新闻发布系统/展示页.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/Demo01.入门/04.DOM对象和jQuery对象.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/Demo01.入门/01.HelloWorld_.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/js/练习.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/js/练习2.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/Demo01.入门/03.核心函数.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQuery常见方法.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQueryCSS.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQ_选择器.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQ选择器2.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQ选择器_表单对象.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/css/部分css一.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQ选择器_表单对象属性.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQ筛选器_第几和父子.html" />
+        <option value="$PROJECT_DIR$/weblearn/jQuery/How2J/jQuery_属性获修删.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_效果_切换显示隐藏等.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_效果2_自定义与回调.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_事件_鼠标键盘控制事件.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_AJAX_提交.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_数组.html" />
+        <option value="$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_dom与jq互转.html" />
       </list>
     </option>
   </component>
@@ -195,7 +324,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -209,55 +338,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
-          <expand>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="IdeaProjects" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lzw" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,16 +347,39 @@
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="IdeaProjects" type="616d4139:PackageViewModuleNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="weblearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="weblearn" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="weblearn" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="weblearn" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo05.事件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="weblearn" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="How2J" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,7 +395,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ideaprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622796640957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622984165590" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="cn.lzw.net.lesson4.UdpServerDemo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -301,7 +406,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -314,21 +419,21 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Teaching\Idea\IdeaProjects\weblearn\learn" />
       <recent name="D:\Teaching\Idea\IdeaProjects\weblearn" />
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\resources" />
       <recent name="D:\Teaching\Idea\IdeaProjects" />
       <recent name="D:\Teaching\Idea\IdeaProjects\ygly\img" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\ygly" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.lzw.jdbc.blob" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Teaching\Idea\IdeaProjects\weblearn\jQuery" />
       <recent name="D:\Teaching\Idea\IdeaProjects\WebRoot" />
       <recent name="D:\Teaching\Idea\IdeaProjects\lib" />
       <recent name="D:\Teaching\Idea\IdeaProjects\src\main\java\cn\lzw\jdbc\dao" />
       <recent name="D:\Teaching\Idea\IdeaProjects" />
-      <recent name="D:\Teaching\Idea\IdeaProjects\src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.lzw.Snake" />
@@ -346,33 +451,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InputStreamReaderTest.test">
+  <component name="RunManager" selected="JavaScript Debug.01.HelloWorld_.html">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lzw.imook.Demo" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.lzw.imook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextScaanner" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextScaanner" />
-      <module name="IdeaProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.test.TimeTest" />
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,70 +477,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputStreamReaderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectOutputStream.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lzw.io.*" />
+          <option name="PATTERN" value="cn.lzw.io.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.io" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.InputStreamReaderTest" />
+      <option name="PACKAGE_NAME" value="cn.lzw.io.serialization" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.serialization.ObjectOutputStream" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectOutputStream.testObjectInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.io.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.lzw.io.serialization" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.serialization.ObjectOutputStream" />
+      <option name="METHOD_NAME" value="testObjectInputStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectOutputStream.testStringBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.io.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.lzw.io.serialization" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.serialization.ObjectOutputStream" />
+      <option name="METHOD_NAME" value="testStringBuffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomAccessFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lzw.io.randomaccessfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.lzw.io.randomaccessfile" />
+      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.randomaccessfile.RandomAccessFileTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/resources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IoTest.streamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.io" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.io.IoTest" />
-      <option name="METHOD_NAME" value="streamTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/resources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryUpdate.test00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.jdbc.durid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.jdbc.durid" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.jdbc.durid.QueryUpdate" />
-      <option name="METHOD_NAME" value="test00" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryUpdate.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lzw.jdbc.durid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lzw.jdbc.durid" />
-      <option name="MAIN_CLASS_NAME" value="cn.lzw.jdbc.durid.QueryUpdate" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -477,6 +560,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="01.HelloWorld_.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/IdeaProjects/weblearn/jQuery/Demo01.入门/01.HelloWorld_.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -543,23 +629,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.TextScaanner" />
-      <item itemvalue="Application.TimeTest" />
+      <item itemvalue="JavaScript Debug.01.HelloWorld_.html" />
       <item itemvalue="JUnit.All in IdeaProjects" />
       <item itemvalue="JUnit.cn.lzw.jdbc.dao in IdeaProjects" />
-      <item itemvalue="JUnit.QueryUpdate.test00" />
-      <item itemvalue="JUnit.QueryUpdate.test01" />
-      <item itemvalue="JUnit.IoTest.streamTest" />
-      <item itemvalue="JUnit.InputStreamReaderTest.test" />
+      <item itemvalue="JUnit.ObjectOutputStream.test" />
+      <item itemvalue="JUnit.ObjectOutputStream.testObjectInputStream" />
+      <item itemvalue="JUnit.ObjectOutputStream.testStringBuffer" />
+      <item itemvalue="JUnit.RandomAccessFileTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InputStreamReaderTest.test" />
-        <item itemvalue="JUnit.IoTest.streamTest" />
-        <item itemvalue="Application.TimeTest" />
-        <item itemvalue="JUnit.QueryUpdate.test01" />
-        <item itemvalue="JUnit.QueryUpdate.test00" />
+        <item itemvalue="JavaScript Debug.01.HelloWorld_.html" />
+        <item itemvalue="JUnit.RandomAccessFileTest" />
+        <item itemvalue="JUnit.ObjectOutputStream.testStringBuffer" />
+        <item itemvalue="JUnit.ObjectOutputStream.testObjectInputStream" />
+        <item itemvalue="JUnit.ObjectOutputStream.test" />
       </list>
     </recent_temporary>
   </component>
@@ -717,7 +802,20 @@
       <workItem from="1622538445141" duration="16000" />
       <workItem from="1622789451651" duration="663000" />
       <workItem from="1622794020180" duration="56000" />
-      <workItem from="1622794158477" duration="2264000" />
+      <workItem from="1622794158477" duration="5251000" />
+      <workItem from="1622805820220" duration="1307000" />
+      <workItem from="1622853966432" duration="108000" />
+      <workItem from="1622855502157" duration="191000" />
+      <workItem from="1622857735052" duration="33000" />
+      <workItem from="1622858151807" duration="37000" />
+      <workItem from="1622859656403" duration="2232000" />
+      <workItem from="1622874401425" duration="10660000" />
+      <workItem from="1622892987958" duration="3933000" />
+      <workItem from="1622949852210" duration="35000" />
+      <workItem from="1622950144054" duration="29000" />
+      <workItem from="1622950352092" duration="332000" />
+      <workItem from="1622951856428" duration="2964000" />
+      <workItem from="1622976475373" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="Idea 整合 Github">
       <created>1610027917049</created>
@@ -859,43 +957,50 @@
       <option name="project" value="LOCAL" />
       <updated>1622795300194</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Idea 整合 Github&#10;                        新增加一个 测试">
+      <created>1622796701905</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622796701905</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryUpdate_test3 - 2021.05.28 at 15h 26m 38s.xml">
-      <configuration name="QueryUpdate.test3" configurationId="JUnit" />
+    <history-entry file="WordCount_testWordCount - 2021.06.04 at 17h 03m 57s.xml">
+      <configuration name="WordCount.testWordCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryUpdate_test3 - 2021.05.28 at 15h 33m 25s.xml">
-      <configuration name="QueryUpdate.test3" configurationId="JUnit" />
+    <history-entry file="WordCount1_testWordCount1 - 2021.06.04 at 17h 04m 04s.xml">
+      <configuration name="WordCount1.testWordCount1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryUpdate_test3 - 2021.05.28 at 15h 37m 42s.xml">
-      <configuration name="QueryUpdate.test3" configurationId="JUnit" />
+    <history-entry file="WordCount1_testWordCount1 - 2021.06.04 at 17h 04m 19s.xml">
+      <configuration name="WordCount1.testWordCount1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryUpdate_test3 - 2021.05.28 at 15h 38m 10s.xml">
-      <configuration name="QueryUpdate.test3" configurationId="JUnit" />
+    <history-entry file="ObjectOutputStream_test1 - 2021.06.04 at 17h 04m 28s.xml">
+      <configuration name="ObjectOutputStream.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryUpdate_test00 - 2021.05.28 at 16h 27m 26s.xml">
-      <configuration name="QueryUpdate.test00" configurationId="JUnit" />
+    <history-entry file="ObjectOutputStream_ftest - 2021.06.04 at 17h 04m 37s.xml">
+      <configuration name="ObjectOutputStream.ftest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryUpdate_test01 - 2021.05.28 at 16h 28m 27s.xml">
-      <configuration name="QueryUpdate.test01" configurationId="JUnit" />
+    <history-entry file="ObjectOutputStream_test - 2021.06.04 at 17h 04m 42s.xml">
+      <configuration name="ObjectOutputStream.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryUpdate_test01 - 2021.05.28 at 16h 28m 55s.xml">
-      <configuration name="QueryUpdate.test01" configurationId="JUnit" />
+    <history-entry file="ObjectOutputStream_testObjectInputStream - 2021.06.04 at 17h 04m 51s.xml">
+      <configuration name="ObjectOutputStream.testObjectInputStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IoTest_streamTest - 2021.06.04 at 14h 59m 42s.xml">
-      <configuration name="IoTest.streamTest" configurationId="JUnit" />
+    <history-entry file="ObjectOutputStream_testStringBuffer - 2021.06.04 at 17h 05m 00s.xml">
+      <configuration name="ObjectOutputStream.testStringBuffer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputStreamReaderTest_test - 2021.06.04 at 16h 38m 45s.xml">
-      <configuration name="InputStreamReaderTest.test" configurationId="JUnit" />
+    <history-entry file="RandomAccessFileTest - 2021.06.04 at 17h 05m 14s.xml">
+      <configuration name="RandomAccessFileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputStreamReaderTest_test - 2021.06.04 at 16h 39m 34s.xml">
-      <configuration name="InputStreamReaderTest.test" configurationId="JUnit" />
+    <history-entry file="RandomAccessFileTest - 2021.06.04 at 17h 05m 31s.xml">
+      <configuration name="RandomAccessFileTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469551000" />
+    <option name="totallyTimeSpent" value="501028000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -907,9 +1012,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.20414847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726176" visible="true" weight="0.15938166" />
       <window_info id="Structure" order="1" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -918,7 +1024,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50273824" side_tool="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.28285077" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49836066" weight="0.27505568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39075145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -940,10 +1046,10 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.119936034" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.11925602" />
       <window_info anchor="right" id="Database" order="8" weight="0.5308748" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
-      <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.32932165" />
       <window_info anchor="right" id="Translation Assistant" order="11" weight="0.32995737" />
     </layout>
   </component>
@@ -1001,377 +1107,285 @@
     <option name="LAST_COMMIT_MESSAGE" value="Idea 整合 Github&#10;                        新增加一个 测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/bean/Kkb_skill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="21" selection-end-line="55" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Question02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="16" lean-forward="true" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/QuestionDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/exer/Question03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="156" column="13" lean-forward="true" selection-end-line="340" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/blob/BlobTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/blob/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6633">
-          <caret line="315" column="9" lean-forward="true" selection-start-line="315" selection-start-column="9" selection-end-line="315" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/TestJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/Kkb_skillDAOImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/php新闻发布系统/添加页.html" />
+    <entry file="file://$PROJECT_DIR$/weblearn/php新闻发布系统/展示页.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/dao/Kkb_skillDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="287">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalQuery.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/02.层次选择器__.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-495" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/UniversalCURD.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/01.基本选择器__.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1782" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementCURD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementUpadteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/preparestatement/crud/PrepareStatementQueryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/DuridUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridCURD.java" />
-    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷_宋红康_JDBC核心技术/5-代码/jdbc_2/src/com/atguigu4/util/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="199" column="5" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="199" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3.jar!/org/apache/commons/dbutils/QueryRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3.jar!/org/apache/commons/dbutils/handlers/BeanListHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://M:/BaiduYunDownload/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷_宋红康_JDBC核心技术/5-代码/jdbc_2/src/com/atguigu5/dbutils/QueryRunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5389">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3-src.zip!/commons-dbutils-1.3-src/src/java/org/apache/commons/dbutils/handlers/BeanListHandler.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/03.基本的过滤选择器__.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/annotation/wan.java" />
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/04.内容过滤选择器__.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/05.可见性过滤选择器__.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/06.属性过滤选择器__.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/08.表单对象属性过滤选择器__.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo02.选择器/09.元素筛选方法__.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo03.DOM操作/2、dom属性操作___.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo06.动画/动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo06.动画/动画__.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习01 选择器练习01 隔行变色/ex_3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习01 选择器练习01 隔行变色/ex_3_emp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习02 选择器练习02 全选全不选/ex-4__.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo04.CSS样式操作/jqueryCss.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/练习/☆练习02 选择器练习02 全选全不选/ex-4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/01.HelloWorld_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/01.HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/02.$的本质.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/javascript/练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/javascript/练习2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/javascript/练习3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/javascript/js六.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/04.DOM对象和jQuery对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo01.入门/03.核心函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/css3/部分css三.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/css3/部分css二.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="6" column="11" selection-end-line="6" selection-end-column="12" />
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/DuridTest.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/css3/部分css一.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="56" selection-end-line="68" />
+        <state relative-caret-position="7458">
+          <caret line="226" column="12" selection-start-line="226" selection-start-column="12" selection-end-line="226" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ选择器_表单对象属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQuery常见方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="10" column="3" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ选择器_可见与属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1792">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ选择器_表单对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3356">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQueryCSS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ筛选器_第几和父子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1145">
+          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/jdbc/durid/QueryUpdate.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQuery_属性获修删.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="66" selection-end-line="196" />
+        <state relative-caret-position="2706">
+          <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/util/JDBCUtils.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/javascript/部分js一.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4413" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/spring/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/CalendarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/StringTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1393">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/LocalDateTimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/string/OthersClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/test/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3f509a76696595783c07814d8164db24.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/fjsald.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/IoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="170" column="31" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/learn/js/练习.html">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/javascript/js五.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/learn/js/js六.html">
+    <entry file="file://$PROJECT_DIR$/weblearn/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblearn/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/annotation/TestDemo01.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_效果_切换显示隐藏等.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="636">
+          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/learn/css/部分css一.html">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/html5/styles/liziwei.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-2310">
+          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/html5/js/js01.js">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_效果2_自定义与回调.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="1155">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/jQuery.iml">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_事件_鼠标键盘控制事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="2682">
+          <caret line="198" column="7" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/html5/styles/样式1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab.txt">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/Demo05.事件/04.事件冒泡/bubble.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lzw/io/InputStreamReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_AJAX_提交.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="462">
+          <caret line="14" column="3" selection-start-line="14" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weblearn/weblearn.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/html5/Study02.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/weblearn/learn/jQuery/How2J/jQ_dom与jq互转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

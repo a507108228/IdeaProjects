@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 19:26
+    * @description:
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<!--
+页面加载有两种方式表示
+1. $(document).ready();
+2. $(); 这种比较常用
+图片加载用load()函数
+-->
+<script>
+    $(document).ready(function(){
+        $("#message1").html("页面加载成功");
+
+    });
+    $(function(){
+        $("#img").load(function(){
+            $("#message2").html("图片加载成功");
+        });
+    });
+
+</script>
+
+<div id="message1"></div>
+<div id="message2"></div>
+
+<img id="img" src="https://how2j.cn/example.gif">
+
+<br>
+<br>
+<!--
+鼠标事件 单双击
+-->
+<script>
+    $(function () {
+        $("#shubiao1").click(function () {
+            $("#shubiaoDiv").html("单击事件");
+        });
+
+        $("#shubiao1").dblclick(function () {
+            $("#shubiaoDiv").html("双击事件");
+        });
+    });
+</script>
+
+<button id="shubiao1">单双击</button>
+<div id="shubiaoDiv"></div>
+
+<br>
+<br>
+<!--
+键盘事件
+-->
+<script>
+    var order = 0;
+    var clearTimer=null;
+    $(function(){
+        $("#i").keydown(function(e){
+            var selector = "keydown";
+
+            show(selector,e,$(this).val());
+        });
+
+        $("#i").keypress(function(e){
+            var selector = "keypress";
+            show(selector,e,$(this).val());
+        });
+
+        $("#i").keyup(function(e){
+            var selector = "keyup";
+            show(selector,e,$(this).val());
+        });
+
+    });
+
+    function show(selector,e,inputvalue){
+        clearTimeout(clearTimer);
+        action(selector);
+        key(selector,e);
+        value(selector,inputvalue);
+        clearTimer= setTimeout(clear,4000);
+    }
+
+    function action(selector){
+        $("#"+selector+"Action").css("background-color","green");
+        $("#"+selector+"Action").html("顺序: " + (++order ) );
+    }
+
+    function value(selector,value){
+        $("#"+selector+"Value").html(value);
+    }
+
+    function key(selector,e){
+        $("#"+selector+"Key").html(e.which);
+    }
+
+    function clear(){
+        order = 0;
+        $("tr#action div").css("background-color","red");
+        $("tr div").html("");
+    }
+
+</script>
+<style>
+    tr#action div{
+        border: 1px solid black;
+        height:50px;
+        background-color:red;
+    }
+
+    tr#value div,tr#key div{
+
+        height:50px;
+        background-color:#d1d1d1;
+    }
+
+    td{
+        width:25%;
+    }
+</style>
+输入框：<input id="i">
+<table width="100%">
+    <tr>
+        <td></td>
+        <td>keydown</td>
+        <td>keypress</td>
+        <td>keyup</td>
+    </tr>
+    <tr id="action">
+        <td>行为</td>
+        <td><div id="keydownAction"></div></td>
+        <td><div id="keypressAction"></div></td>
+        <td><div id="keyupAction"></div></td>
+    </tr>
+
+    <tr id="key">
+        <td>按键</td>
+        <td><div id="keydownKey"></div></td>
+        <td><div id="keypressKey"></div></td>
+        <td><div id="keyupKey"></div></td>
+    </tr>
+
+    <tr id="value">
+        <td>取值</td>
+        <td><div id="keydownValue"></div></td>
+        <td><div id="keypressValue"></div></td>
+        <td><div id="keyupValue"></div></td>
+    </tr>
+
+</table>
+
+<br>
+<br>
+<!--
+focus() blur() 失去焦点得到焦点
+-->
+<script>
+$(function () {
+    $("input").focus(function () {
+        $(this).val("获取焦点")
+    });
+
+    $("input").blur(function () {
+        $(this).val("失去焦点")
+    });
+
+//    change()改变内容
+    $("#change1").change(function () {
+        var text = $(this).val();
+        $("#message").html("input内容改变"+text);
+    });
+
+});
+</script>
+
+<div id="message"></div>
+<input  type="text">
+<input  type="text">
+<br>
+<input type="text" id="change1">
+<br>
+<input size="50" id="change2" type="text" value="只有当input内容改变才会触发">
+
+<br>
+<!--
+表单事件
+-->
+<form id="form" action="https://how2j.cn/study/login.jsp">
+    账号 : <input name="name" type=""> <br>
+    密码 : <input name="password" type=""><br>
+    <input type="submit" value="登陆">
+
+</form>
+
+<script>
+    $(function(){
+
+        $("#form").submit(function(){
+            alert("提交账号密码");
+        });
+    });
+
+</script>
+
+</body>
+</html>

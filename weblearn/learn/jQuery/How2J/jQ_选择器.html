@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/5 15:40
+    * @description:
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+
+    <style>
+        .pink{
+            background-color:pink;
+        }
+        .green{
+            background-color:green;
+        }
+    </style>
+    <!-- 根据标签选择器来操作内容 -->
+    <script>
+        //    $("tagName")
+        $(function () {
+            $("#b3").click(function () {
+                $("div").css("background","red")
+            })
+        })
+
+        //    id
+        $(function () {
+            $("#b4").click(function () {
+                $("#p1").css("background","yellow")
+            })
+        })
+
+        //    类
+        $(function () {
+            $("#b5").click(function () {
+                $(".p3").css("color","red")
+            })
+        })
+
+        //    层级 注意id  # class  .
+        $(function () {
+            $("#b6").click(function () {
+                $("pre.p3 span").css("color","red")
+            })
+        })
+
+        //    最先最后
+        $(function () {
+            $("#b7a").click(function () {
+                $("pre#p1:first").css("color","red")
+            })
+        })
+
+        $(function () {
+            $("#b7b").click(function () {
+                $("pre#p2:last").css("color","orange")
+            })
+        })
+
+        //    奇偶 从零开始
+        $(function () {
+            $("#b8a").click(function () {
+                $("div:odd").toggleClass("green")
+            })
+        })
+        $(function () {
+            $("#b8b").click(function () {
+                $("div:even").toggleClass("pink")
+            })
+        })
+    </script>
+
+</head>
+<body>
+
+<button id="b3">给所有div加入css</button>
+<button id="b4">给pre用id选择器加入css</button>
+<button id="b5">给p3用类选择器加入css</button>
+<button id="b6">在div下p3 加入css</button>
+<button id="b7a">第一个加入css</button>
+<button id="b7b">最后一个加入css</button><br>
+<button id="b8a">奇数变</button>
+<button id="b8b">偶数变</button>
+
+
+
+
+<div>
+    <span>Hello JQuery 0</span>
+
+</div>
+
+<div>
+    <span>Hello JQuery 1</span>
+
+</div>
+
+<div >
+    <span>Hello JQuery 2</span>
+</div>
+
+<div >
+    <span>Hello JQuery 3</span>
+</div>
+
+<div >
+    <span>Hello JQuery 4</span>
+</div>
+
+</div>
+
+<div >
+    <span>Hello JQuery 5</span>
+</div>
+
+<div >
+    <span>Hello JQuery 6</span>
+</div>
+
+<div id="div3">
+    <pre id="p2">
+
+     <pre id="p1">元素
+$("tagName")</pre>
+
+         id
+$("id")
+
+        类
+$("className")
+
+        层级
+$("selector1 selector2")
+
+        最先最后
+:first
+:last
+
+        奇偶
+:odd
+:even
+
+        可见性
+:hidden
+:visible
+
+<pre class="p3">    属性
+[attribute]
+<span>[attribute=value]
+    [attribute!=value]</span>
+[attribute^=value]
+[attribute$=value]
+[attribute*=value]
+</pre>
+        表单对象
+:input
+:button
+:radio
+:checkbox
+:text
+:file
+:submit
+:image
+:reset
+
+        表单对象属性
+:enabled
+:disabled
+:checked
+:selected
+        
+        当前元素
+this
+    </pre>
+</div>
+</body>
+</html>

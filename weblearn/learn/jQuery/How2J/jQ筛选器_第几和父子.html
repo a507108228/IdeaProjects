@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/6 11:59
+    * @description: 给按钮绑定事件
+    事件调用  .parent()//选取最近的一个父元素
+              .toggleClass() 切换功能 里面可以加入css样式
+
+    事件调用  .parents()//选取所有祖父元素 同上调用
+
+    以上调用属于选择父元素 方便加入功能 样式等
+
+    给按钮绑定事件：
+    做出改动的的内容调用函数 函数里写上功能
+    .children():筛选出儿子（我当前元素的下一个元素）元素
+    .find(selector):筛选出后代（当前元素里的所有元素）元素
+
+    给按钮绑定事件：
+    .siblings():同级元素（与当前元素同级别都被选中）
+    -->
+    <meta charset="UTF-8">
+    <script src="../script/jquery-1.7.2.js"></script>
+    <title>Title</title>
+    <style>
+        .pink{
+            color:yellow;
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center">第一 第二  指定位置</h2>
+<script>
+    $(function () {
+        $("#b1").click(function () {
+            $("div").first().toggleClass("pink")
+        });
+    });
+
+    $(function () {
+        $("#b3").click(function(){
+            $("div").last().toggleClass("pink");
+        });
+    });
+    $(function () {
+        $("#b2").click(function () {
+            $("div").eq(3).toggleClass("pink")
+        });
+    });
+
+</script>
+
+<button id="b1">给第一个切换样式</button>
+<button id="b2">给第三个切换样式</button>
+<button id="b3">给最后一个切换样式</button>
+
+<div >你好啊，远方的她</div>
+<div >你好啊，远方的他</div>
+<div >你好啊，远方的它</div>
+<div >你好啊，远方的你</div>
+<div >你好啊，我的朋友们</div>
+
+<br>
+<br>
+<h2 style="text-align: center">父元素 祖先元素</h2>
+
+<script>
+    $(function(){
+        $("#b4").click(function(){
+            $("#currentDiv").parent().toggleClass("b");
+        });
+        $("#b5").click(function(){
+            $("#currentDiv").parents().toggleClass("b");
+        });
+
+    });
+</script>
+
+<style>
+    div{
+        padding:20px;
+    }
+
+    div#grandParentDiv{
+        background-color:pink;
+    }
+
+    div#parentDiv{
+        background-color:green;
+    }
+
+    div#currentDiv{
+        background-color:red;
+    }
+
+    .b{
+        border: 2px solid black;
+    }
+
+</style>
+
+<button id="b4">改变parent()的边框</button>
+
+<button id="b5">改变parents()的边框</button>
+
+<div id="grandParentDiv" >
+    祖先元素
+    <div id="parentDiv">
+        父元素
+        <div id="currentDiv">当前元素</div>
+    </div>
+</div>
+
+<br>
+<br>
+<h2 style="text-align: center">儿子 后代</h2>
+</script>
+
+<script>
+$(function(){
+    $("#b6").click(function(){
+        $("#div1").children().toggleClass("b");
+    });
+    $("#b7").click(function(){
+        $("#div1").find("div").toggleClass("b");
+    });
+
+});
+</script>
+
+<style>
+    div{
+        padding:20px;
+    }
+
+    div.grandChildrenDiv{
+        background-color:pink;
+    }
+
+    div.childrenDiv{
+        background-color:green;
+        margin:10px;
+    }
+
+    div#currentDiv{
+        background-color:red;
+    }
+
+    .b{
+        border: 2px solid black;
+    }
+
+</style>
+
+<button id="b6">改变children()的边框</button>
+
+<button id="b7">改变find()的边框</button>
+
+<div id="div1" >
+    当前元素
+    <div class="childrenDiv">
+        儿子元素1
+        <div class="grandChildrenDiv">后代元素n</div>
+    </div>
+    <div class="childrenDiv">
+        儿子元素2
+        <div class="grandChildrenDiv">后代元素n</div>
+
+    </div>
+</div>
+
+<br>
+<br>
+<h2 style="text-align: center">同级元素</h2>
+<script>
+    $(function(){
+        $("#b8").click(function(){
+            $("#d2").siblings().toggleClass("b");
+        });
+    });
+</script>
+
+<style>
+    div{
+        padding:20px;
+        background-color:pink;
+        margin:10px;
+    }
+
+    div#p1{
+        background-color:green;
+    }
+
+    div#p1{
+        background-color:red;
+    }
+
+    .b{
+        border: 2px solid black;
+    }
+
+</style>
+
+<button id="b8">给同级加上边框</button>
+
+<div id="p1" >
+    父元素
+    <div id="d2">
+        当前元素
+    </div>
+    <div >
+        同级元素
+    </div>
+    <div >
+        同级元素
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="../script/jquery-1.7.2.js"></script>
+    <script type="text/javascript"></script>
+    <title>Insert title here</title>
+    <script>
+        window.onload = function () {
+            var btnObj = document.getElementById("btnId");
+            alert("btnObj" + "dom对象调用" + btnObj);
+        };
+
+        <!-- 表示页面加载完成后 -->
+        $(function () {
+            //	按照id查询标签对象
+            var $btnObj = $("#btnId");
+            $btnObj.click(function () {
+                alert("jquery的单击事件");
+            });
+        });
+
+        $(function () {
+            var $btnId = $("#btnId");
+            $btnId.click(function () {
+                alert("jQuery单击事件二")
+            });
+        });
+
+        $(function () {
+            var $a = $("#btnId");
+            $a.click(function () {
+                alert("练习")
+            });
+        });
+
+        //    展开隐藏内容
+        $(function () {
+            var $b = $("#b1");
+            $b.click(function () {
+                $("#d1").hide();
+            })
+        });
+        $(function () {
+            $("#b2").click(function () {
+                $("#d1").show();
+            });
+        });
+
+        //    文档加载 显示
+        //$(function () {
+        //document.write("文档加载成功");
+        //     document.write($("#d1"));
+        //     document.close();
+        // });
+
+        $(function () {
+            $("#btnId").click(function () {
+                alert("我的idea写前端有点卡！");
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+<button id="btnId">SayHello</button>
+
+<!-- 展开隐藏内容 -->
+<button id="b1" type="button">隐藏</button>
+<button id="b2" type="button">展开</button>
+<div id="d1">这是内容</div>
+
+
+</body>
+</html>
