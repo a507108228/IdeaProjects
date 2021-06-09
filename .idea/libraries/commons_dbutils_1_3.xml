@@ -1,13 +1,15 @@
 <component name="libraryTable">
-  <library name="lib (3)">
+  <library name="commons-dbutils-1.3">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-dbutils-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/druid-1.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.7-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3-src.zip!/commons-dbutils-1.3-src/src/java" />
       <root url="jar://$PROJECT_DIR$/lib/commons-dbutils-1.3-src.zip!/commons-dbutils-1.3-src/src/test" />
     </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
   </library>
 </component>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/8 11:15
+    * @description:
+    -->
+    <meta charset="UTF-8">
+    <script src="jquery-1.7.2.js"></script>
+    <title>Title</title>
+    <style>
+        body{
+            margin: 50px;
+            padding: 20px;
+        }
+        body{
+            text-align: center;
+            background-color: pink;
+        }
+
+        button{
+            background-color: navajowhite;
+        }
+
+        div#xin1{
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+<script>
+    $(function () {
+        $("#b1").click(function () {
+            alert("不当我朋友，当我女朋友？");
+        });
+
+        $("#b2").click(function () {
+            alert("那真是太好了！请点击确认按钮")
+            $("#xin").fadeToggle();
+            $("#xin1").fadeToggle();
+
+        })
+    });
+</script>
+
+<h1>给个机会，我想当你朋友</h1>
+<br>
+<button id="b1" type="button" style="width: 60px; height: 30px; ">好</button>
+<button id="b2" type="button" style="width: 60px; height: 30px; ">好</button>
+<br>
+<br>
+<div hidden="hidden" id="xin1">
+    <p>这个小伙钟意你的认真，想要认识你，想和你交朋友。</p>
+    <pre><b>我鼓起勇气向你走来，希望你能伸出手。
+            当你接住这根红线，我们之间就有故事。</b></pre>
+    <p>无论同意与否请务必加我微信qaq</p>
+    <img src="weixin.jpg" alt="加李梓玮微信" width="330" height="330">
+
+
+
+</div>
+<div id="xin">
+    <style>
+        @keyframes ani{
+            from{
+                transform:rotateY(0deg) rotateX(0deg);
+            }
+            to{
+                transform:rotateY(360deg) rotateX(360deg);
+            }
+        }
+        body{
+            perspective:1000px;
+        }
+        #heart{
+            position:relative;
+            height:200px;
+            width:150px;
+            margin:200px auto;
+            animation:ani 5s linear infinite;
+            transform-style:preserve-3d;
+
+        }
+        .line{
+            position:absolute;
+            height:200px;
+            width:150px;
+            border:2px solid red;
+            border-left:0;
+            border-bottom:0;
+            border-radius:50% 50% 0/50% 40% 0;
+        }
+        #word{
+            font-family:"隶书";
+            font-size:1.3em;
+            color:red;
+            position:absolute;
+            top: 80px;
+            left:22px;
+            font-weight:bold;
+        }
+
+    </style>
+
+    <body>
+    <div id="heart">
+        <div id="word">我 钟意 你呐</div>
+    </div>
+
+    <script>
+        var heart=document.getElementById("heart");
+        var html="";
+        for(var i=0;i<36;i++){
+            html+="<div class='line' style='transform:rotateY("+i*10+"deg) rotateZ(45deg) translateX(25px)'></div>";
+        }
+        heart.innerHTML += html;
+    </script>
+    </body>
+</div>
+
+</body>
+</html>

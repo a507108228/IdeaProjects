@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>lzw</param-value>
+    </context-param>
+
+    <!-- 给tomcat 配置servlet -->
+    <servlet>
+        <!-- 起别名 -->
+        <servlet-name>HelloServlet</servlet-name>
+        <!-- servlet程序的全类名 -->
+        <servlet-class>com.lzw.servlet.HelloServlet</servlet-class>
+        <!-- 初始化参数 参数名 参数值-->
+        <init-param>
+            <param-name>age</param-name>
+            <param-value>20</param-value>
+        </init-param>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>lzw</param-value>
+        </init-param>
+    </servlet>
+
+    <!-- 给servlet配置访问地址-->
+    <servlet-mapping>
+        <!-- 当前配置的地址给谁用 -->
+        <servlet-name>HelloServlet</servlet-name>
+        <!-- url 配置访问地址
+         / 斜杠在服务器解析时 表示地址为：http://ip:port/工程路径
+         / hello http://ip:port/工程路径/hello -->
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+<!--22222-->
+    <servlet>
+        <servlet-name>HelloServlet2</servlet-name>
+        <servlet-class>com.lzw.servlet.HttpServlet2</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HelloServlet2</servlet-name>
+        <url-pattern>/hello2</url-pattern>
+    </servlet-mapping>
+<!--33333-->
+    <servlet>
+        <servlet-name>HelloServlet3</servlet-name>
+        <servlet-class>com.lzw.servlet.HelloServlet3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet3</servlet-name>
+        <url-pattern>/hello3</url-pattern>
+    </servlet-mapping>
+<!--44444-->
+    <servlet>
+        <servlet-name>ServletContext1</servlet-name>
+        <servlet-class>com.lzw.servlet.ServletContext1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContext1</servlet-name>
+        <url-pattern>/hello4</url-pattern>
+    </servlet-mapping>
+<!--55555-->
+    <servlet>
+        <servlet-name>ServletContext2</servlet-name>
+        <servlet-class>com.lzw.servlet.ServletContext2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContext2</servlet-name>
+        <url-pattern>/h5</url-pattern>
+    </servlet-mapping>
+
+<!--常用方法-->
+    <servlet>
+        <servlet-name>RequestMethod</servlet-name>
+        <servlet-class>com.lzw.servletmethod.RequestMethod</servlet-class>
+
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>lze</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>age</param-name>
+            <param-value>23</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>gernder</param-name>
+            <param-value>male</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestMethod</servlet-name>
+        <url-pattern>/rm</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

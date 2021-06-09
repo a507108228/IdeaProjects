@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---
+    * @author: a5071
+    * @date: 2021/6/7 16:14
+    * @description:
+    GET 还是 POST？
+与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。
+
+然而，在以下情况中，请使用 POST 请求：
+
+无法使用缓存文件（更新服务器上的文件或数据库）
+向服务器发送大量数据（POST 没有数据量限制）
+发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠
+
+url - 服务器上的文件
+open() 方法的 url 参数是服务器上文件的地址：
+
+xmlhttp.open("GET","ajax_test.asp",true);
+该文件可以是任何类型的文件，比如 .txt 和 .xml，或者服务器脚本文件，
+比如 .asp 和 .php （在传回响应之前，能够在服务器上执行任务）。
+
+
+    -->
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    <!-- get -->
+    // function loadXMLDoc() {
+    //     var xmlhttp;
+    //     if (window.XMLHttpRequest){
+    //         xmlhttp = new XMLHttpRequest();
+    //     } else {
+    //         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    //     }
+    //     xmlhttp.onreadystatechange = function (){
+    //         if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+    //             document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
+    //         }
+    //     }
+    //     xmlhttp.open("GET","https://www.w3school.com.cn/ajax/ajax_xmlhttprequest_send.asp",true);
+    //     xmlhttp.send();
+    // }
+
+
+    //    post
+    function loadXMLDoc()
+    {
+        var xmlhttp;
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {// code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("POST","/ajax/demo_post2.asp",true);
+        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlhttp.send("fname=Bill&lname=Gates");
+    }
+
+</script>
+
+<h2>AJAX</h2>
+<button type="button" onclick="loadXMLDoc()">请求数据</button>
+<div id="myDiv"></div>
+</body>
+</html>
